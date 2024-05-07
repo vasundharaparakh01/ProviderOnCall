@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 51;
+	objectVersion = 54;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -415,7 +415,6 @@
 		C69F55F9242DC1B200225ED8 /* TabCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C69F55F5242DC1B200225ED8 /* TabCollectionView.swift */; };
 		C6A332952419FBD90001BF83 /* ADLTrackingTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6A332942419FBD90001BF83 /* ADLTrackingTool.swift */; };
 		C6A33297241A00500001BF83 /* ADLTrackingListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6A33296241A00500001BF83 /* ADLTrackingListViewController.swift */; };
-		C6A53100247E5CD900D056FF /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C6A530FF247E5CD900D056FF /* GoogleService-Info.plist */; };
 		C6A53103247FD13B00D056FF /* PersonalHygiene.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6A53102247FD13A00D056FF /* PersonalHygiene.swift */; };
 		C6A53105247FF59C00D056FF /* SleepRest.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6A53104247FF59B00D056FF /* SleepRest.swift */; };
 		C6A5310A2480C4CD00D056FF /* BehaviorTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6A531062480C4CB00D056FF /* BehaviorTypes.swift */; };
@@ -593,13 +592,10 @@
 		591316F823E007D3005CAD84 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		591316FA23E007D3005CAD84 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		5913170123E007D4005CAD84 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		5913170623E007D4005CAD84 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5913170B23E007D4005CAD84 /* AccessEMRTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AccessEMRTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5913170F23E007D4005CAD84 /* AccessEMRTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessEMRTests.swift; sourceTree = "<group>"; };
-		5913171123E007D4005CAD84 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5913171623E007D4005CAD84 /* AccessEMRUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AccessEMRUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5913171A23E007D4005CAD84 /* AccessEMRUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessEMRUITests.swift; sourceTree = "<group>"; };
-		5913171C23E007D4005CAD84 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5913172E23E00848005CAD84 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5913172F23E00848005CAD84 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		5913173123E00849005CAD84 /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
@@ -984,7 +980,6 @@
 		C69F55F5242DC1B200225ED8 /* TabCollectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabCollectionView.swift; sourceTree = "<group>"; };
 		C6A332942419FBD90001BF83 /* ADLTrackingTool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ADLTrackingTool.swift; sourceTree = "<group>"; };
 		C6A33296241A00500001BF83 /* ADLTrackingListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ADLTrackingListViewController.swift; sourceTree = "<group>"; };
-		C6A530FF247E5CD900D056FF /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		C6A53101247E5D0500D056FF /* AccessEMR.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = AccessEMR.entitlements; sourceTree = "<group>"; };
 		C6A53102247FD13A00D056FF /* PersonalHygiene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonalHygiene.swift; sourceTree = "<group>"; };
 		C6A53104247FF59B00D056FF /* SleepRest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SleepRest.swift; sourceTree = "<group>"; };
@@ -1181,8 +1176,6 @@
 				C625D0392404DEE70024C271 /* Stores */,
 				5913175723E018AC005CAD84 /* Resources */,
 				5913170123E007D4005CAD84 /* Assets.xcassets */,
-				5913170623E007D4005CAD84 /* Info.plist */,
-				C6A530FF247E5CD900D056FF /* GoogleService-Info.plist */,
 				C69F55EF242B88C700225ED8 /* AccessEMR-Bridging-Header.h */,
 			);
 			path = AccessEMR;
@@ -1192,7 +1185,6 @@
 			isa = PBXGroup;
 			children = (
 				5913170F23E007D4005CAD84 /* AccessEMRTests.swift */,
-				5913171123E007D4005CAD84 /* Info.plist */,
 			);
 			path = AccessEMRTests;
 			sourceTree = "<group>";
@@ -1201,7 +1193,6 @@
 			isa = PBXGroup;
 			children = (
 				5913171A23E007D4005CAD84 /* AccessEMRUITests.swift */,
-				5913171C23E007D4005CAD84 /* Info.plist */,
 			);
 			path = AccessEMRUITests;
 			sourceTree = "<group>";
@@ -2948,7 +2939,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 591316F023E007D3005CAD84 /* Build configuration list for PBXProject "AccessEMR" */;
+			buildConfigurationList = 591316F023E007D3005CAD84 /* Build configuration list for PBXProject "ProviderOnCall" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -3044,7 +3035,6 @@
 				C64BDFDB24739EC000AFE061 /* Montserrat-ExtraBoldItalic.ttf in Resources */,
 				C64BDFBF24739EC000AFE061 /* Roboto-Regular.ttf in Resources */,
 				C64BDFA824739EC000AFE061 /* Poppins-Regular.ttf in Resources */,
-				C6A53100247E5CD900D056FF /* GoogleService-Info.plist in Resources */,
 				C64BDFB724739EC000AFE061 /* Lato-MediumItalic.ttf in Resources */,
 				C6FE6A2F24122DA9008F2816 /* ListCell.xib in Resources */,
 				C61AC32423FE4BDC001CBEC9 /* DecimalInputCell.xib in Resources */,
@@ -4219,7 +4209,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		591316F023E007D3005CAD84 /* Build configuration list for PBXProject "AccessEMR" */ = {
+		591316F023E007D3005CAD84 /* Build configuration list for PBXProject "ProviderOnCall" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5913171D23E007D4005CAD84 /* Debug */,
