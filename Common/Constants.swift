@@ -214,8 +214,6 @@ enum APITargetPoint{
     
     static let saveMealPlan = "MealPlan/SaveUpdateMealPlan"
     
-    //GoogleMap API
-    static let directionGoogleAPI = "https://maps.googleapis.com/maps/api/directions/json?"
     
     //Checkin-out
     static let PatientCheckin = "Patients/PatientCheckin"
@@ -330,7 +328,7 @@ enum Key {
         static let ContentType = "Content-Type"
     }
     enum Google {
-        static let PlacesKey = "AIzaSyCSH_4BRhOUeS8UwPwIoXAnDn5PzxH30ug"//"AIzaSyApRE2CZFeNtIM3H2ddVz3q2oZmjYg0vWU"
+
         static let serverKey = "some key here"
     }
     enum Params {
