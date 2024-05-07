@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15702" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15704"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="poppins_medium.ttf">
+            <string>Poppins-Medium</string>
+        </array>
+        <array key="poppins_regular.ttf">
+            <string>Poppins-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="LogoutView" customModule="AccessEMR" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fed-US-xG4">
+                    <rect key="frame" x="57.5" y="248.5" width="260" height="170"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EJH-Yi-26C">
+                            <rect key="frame" x="19.5" y="119" width="221" height="1"/>
+                            <color key="backgroundColor" red="0.72156862749999995" green="0.71372549019999998" blue="0.71372549019999998" alpha="1" colorSpace="calibratedRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="1" id="Xkb-Xk-Ffy"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Do you want to log out? All progress will be lost." textAlignment="center" lineBreakMode="wordWrap" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ICj-dP-HMp">
+                            <rect key="frame" x="15" y="39" width="230" height="80"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="80" id="9Hu-aB-2MN"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="Poppins-Regular" family="Poppins" pointSize="16"/>
+                            <color key="textColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9Iu-CG-7ew">
+                            <rect key="frame" x="130.5" y="120" width="129.5" height="50"/>
+                            <fontDescription key="fontDescription" name="Poppins-Medium" family="Poppins" pointSize="17"/>
+                            <state key="normal" title="LOG OUT">
+                                <color key="titleColor" red="0.81176470590000005" green="0.090196078430000007" blue="0.1215686275" alpha="1" colorSpace="calibratedRGB"/>
+                            </state>
+                            <connections>
+                                <action selector="btnLogout_action:" destination="iN0-l3-epB" eventType="touchUpInside" id="HsF-tc-EWP"/>
+                            </connections>
+                        </button>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Access EMR" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vKl-lh-3eV">
+                            <rect key="frame" x="0.0" y="14" width="260" height="25"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="25" id="8GQ-pe-CFR"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="Poppins-Medium" family="Poppins" pointSize="18"/>
+                            <color key="textColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UGO-Vp-orf">
+                            <rect key="frame" x="129.5" y="128" width="1" height="37"/>
+                            <color key="backgroundColor" red="0.72156862749999995" green="0.71372549019999998" blue="0.71372549019999998" alpha="1" colorSpace="calibratedRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="37" id="pXB-ps-JMM"/>
+                                <constraint firstAttribute="width" constant="1" id="xHx-jX-pfG"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XkC-cE-I5j">
+                            <rect key="frame" x="0.0" y="120" width="129.5" height="50"/>
+                            <fontDescription key="fontDescription" name="Poppins-Medium" family="Poppins" pointSize="17"/>
+                            <state key="normal" title="CANCEL">
+                                <color key="titleColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                            </state>
+                            <connections>
+                                <action selector="btnCancel_Action:" destination="iN0-l3-epB" eventType="touchUpInside" id="SJV-3e-ejr"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstItem="ICj-dP-HMp" firstAttribute="leading" secondItem="fed-US-xG4" secondAttribute="leading" constant="15" id="0vB-9u-FKv"/>
+                        <constraint firstItem="ICj-dP-HMp" firstAttribute="top" secondItem="vKl-lh-3eV" secondAttribute="bottom" id="5l6-hf-1BA"/>
+                        <constraint firstItem="XkC-cE-I5j" firstAttribute="top" secondItem="EJH-Yi-26C" secondAttribute="bottom" id="8ge-pu-erw"/>
+                        <constraint firstItem="9Iu-CG-7ew" firstAttribute="top" secondItem="EJH-Yi-26C" secondAttribute="bottom" id="PVq-PC-HMy"/>
+                        <constraint firstAttribute="trailing" secondItem="vKl-lh-3eV" secondAttribute="trailing" id="QLB-G9-fTi"/>
+                        <constraint firstAttribute="bottom" secondItem="EJH-Yi-26C" secondAttribute="bottom" constant="50" id="S7z-t0-ZaY"/>
+                        <constraint firstItem="UGO-Vp-orf" firstAttribute="leading" secondItem="XkC-cE-I5j" secondAttribute="trailing" id="Vx6-MU-2U5"/>
+                        <constraint firstAttribute="height" constant="170" id="Z35-Te-KRk"/>
+                        <constraint firstItem="XkC-cE-I5j" firstAttribute="leading" secondItem="fed-US-xG4" secondAttribute="leading" id="Zpo-me-Uz2"/>
+                        <constraint firstItem="vKl-lh-3eV" firstAttribute="leading" secondItem="fed-US-xG4" secondAttribute="leading" id="agC-2k-cAs"/>
+                        <constraint firstItem="EJH-Yi-26C" firstAttribute="centerX" secondItem="fed-US-xG4" secondAttribute="centerX" id="ctI-Tj-f2T"/>
+                        <constraint firstItem="EJH-Yi-26C" firstAttribute="width" secondItem="fed-US-xG4" secondAttribute="width" multiplier="0.85" id="cuO-04-xke"/>
+                        <constraint firstAttribute="trailing" secondItem="ICj-dP-HMp" secondAttribute="trailing" constant="15" id="cvQ-15-9E6"/>
+                        <constraint firstAttribute="bottom" secondItem="UGO-Vp-orf" secondAttribute="bottom" constant="5" id="feR-OF-vzh"/>
+                        <constraint firstAttribute="width" constant="260" id="ftH-cV-Pfr"/>
+                        <constraint firstAttribute="bottom" secondItem="9Iu-CG-7ew" secondAttribute="bottom" id="mba-dk-p4K"/>
+                        <constraint firstAttribute="bottom" secondItem="XkC-cE-I5j" secondAttribute="bottom" id="omZ-eQ-dUJ"/>
+                        <constraint firstItem="9Iu-CG-7ew" firstAttribute="leading" secondItem="UGO-Vp-orf" secondAttribute="trailing" id="rva-qz-fEo"/>
+                        <constraint firstItem="vKl-lh-3eV" firstAttribute="top" secondItem="fed-US-xG4" secondAttribute="top" constant="14" id="wPg-ey-lZs"/>
+                        <constraint firstAttribute="trailing" secondItem="9Iu-CG-7ew" secondAttribute="trailing" id="wUp-j2-RGC"/>
+                        <constraint firstItem="UGO-Vp-orf" firstAttribute="centerX" secondItem="fed-US-xG4" secondAttribute="centerX" id="zYW-N0-P1P"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadiusView">
+                            <real key="value" value="5"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                            <real key="value" value="2"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                            <color key="value" red="0.2196078431372549" green="0.56470588235294117" blue="0.77647058823529413" alpha="1" colorSpace="calibratedRGB"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="fed-US-xG4" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="pJ8-tx-AWf"/>
+                <constraint firstItem="fed-US-xG4" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="sQV-zK-ZUx"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <connections>
+                <outlet property="btnCancel" destination="XkC-cE-I5j" id="MVc-MB-aaB"/>
+                <outlet property="btnLogout" destination="9Iu-CG-7ew" id="840-4B-406"/>
+                <outlet property="lblSubtitle" destination="ICj-dP-HMp" id="FsY-Gr-Zgk"/>
+                <outlet property="lblTitle" destination="vKl-lh-3eV" id="ihC-if-2kV"/>
+            </connections>
+            <point key="canvasLocation" x="-75.200000000000003" y="-90.404797601199405"/>
+        </view>
+    </objects>
+</document>

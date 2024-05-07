@@ -1,0 +1,6 @@
+framework module Pods_AccessEMRTests {
+  umbrella header "Pods-AccessEMRTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

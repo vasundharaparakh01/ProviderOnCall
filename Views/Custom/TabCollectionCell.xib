@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15702" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15704"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Poppins-Medium.ttf">
+            <string>Poppins-Medium</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" contentMode="center" reuseIdentifier="TabCollectionCell" id="gTV-IL-0wX" customClass="TabCollectionCell" customModule="AccessEMR" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="120" height="40"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="120" height="40"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="tailTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WAW-UF-8t0">
+                        <rect key="frame" x="10" y="5" width="110" height="30"/>
+                        <color key="backgroundColor" red="0.81176470590000005" green="0.090196078430000007" blue="0.1215686275" alpha="1" colorSpace="calibratedRGB"/>
+                        <fontDescription key="fontDescription" name="Poppins-Medium" family="Poppins" pointSize="12"/>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                <real key="value" value="15"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                        <connections>
+                            <action selector="btnTab_action:" destination="gTV-IL-0wX" eventType="touchUpInside" id="V1r-sp-P1k"/>
+                        </connections>
+                    </button>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="WAW-UF-8t0" secondAttribute="trailing" id="IYv-lH-PPj"/>
+                <constraint firstAttribute="bottom" secondItem="WAW-UF-8t0" secondAttribute="bottom" constant="5" id="he2-Dd-zpM"/>
+                <constraint firstItem="WAW-UF-8t0" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="5" id="tsq-na-H5I"/>
+                <constraint firstItem="WAW-UF-8t0" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="10" id="v6S-YL-lsW"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <size key="customSize" width="120" height="50"/>
+            <connections>
+                <outlet property="btnTab" destination="WAW-UF-8t0" id="hDF-qO-13D"/>
+            </connections>
+            <point key="canvasLocation" x="97.599999999999994" y="46.776611694152926"/>
+        </collectionViewCell>
+    </objects>
+</document>

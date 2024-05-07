@@ -1,0 +1,70 @@
+PODS:
+  - Charts (3.4.0):
+    - Charts/Core (= 3.4.0)
+  - Charts/Core (3.4.0)
+  - EasyTipView (2.0.4)
+  - FSCalendar (2.8.1)
+  - IQKeyboardManagerSwift (6.3.0)
+  - LMGraphView (1.0.0)
+  - NVActivityIndicatorView (4.8.0):
+    - NVActivityIndicatorView/Presenter (= 4.8.0)
+  - NVActivityIndicatorView/Presenter (4.8.0)
+  - OpalImagePicker (2.1.2)
+  - SDWebImage (5.4.1):
+    - SDWebImage/Core (= 5.4.1)
+  - SDWebImage/Core (5.4.1)
+  - SkyFloatingLabelTextField (3.8.0)
+  - StepSlider (1.3.0)
+  - SwiftSignalRClient (0.7.0)
+  - TTSegmentedControl (0.4.10)
+  - UIFloatLabelTextView (1.0.10)
+
+DEPENDENCIES:
+  - Charts
+  - EasyTipView (~> 2.0.4)
+  - FSCalendar
+  - IQKeyboardManagerSwift (= 6.3.0)
+  - LMGraphView
+  - NVActivityIndicatorView
+  - OpalImagePicker (~> 2.1.0)
+  - SDWebImage
+  - SkyFloatingLabelTextField
+  - StepSlider (~> 1.3.0)
+  - SwiftSignalRClient
+  - TTSegmentedControl (~> 0.4.9)
+  - UIFloatLabelTextView
+
+SPEC REPOS:
+  trunk:
+    - Charts
+    - EasyTipView
+    - FSCalendar
+    - IQKeyboardManagerSwift
+    - LMGraphView
+    - NVActivityIndicatorView
+    - OpalImagePicker
+    - SDWebImage
+    - SkyFloatingLabelTextField
+    - StepSlider
+    - SwiftSignalRClient
+    - TTSegmentedControl
+    - UIFloatLabelTextView
+
+SPEC CHECKSUMS:
+  Charts: 74c9f256eaf0460c0c416522d1cf8c634ea6b286
+  EasyTipView: 4f8beae0a82db2ca4a9b5fd658785fc5f61d296b
+  FSCalendar: 5245140456fcbcac5824c203b98bd8068bdfee1a
+  IQKeyboardManagerSwift: a8228c257614af98743b4cd8584637025f36358f
+  LMGraphView: 3e978a4148f77149b283afdd1f949a2d4a1eb28c
+  NVActivityIndicatorView: d24b7ebcf80af5dcd994adb650e2b6c93379270f
+  OpalImagePicker: 51cbf714f337a93c2631219f1a90389ba936077f
+  SDWebImage: 29c340dbdcef342bb13125553f4e19ce056b07a7
+  SkyFloatingLabelTextField: 5a338412114808e961fe2d14ea2c5452c8b6e4aa
+  StepSlider: c54e471186f29c6535260c9866178a3900f787e9
+  SwiftSignalRClient: e6f88d5984da218a2b23fc974a56191db4fa6ae6
+  TTSegmentedControl: d8005c0cdca2549ade0aee8e09240723e2478a6a
+  UIFloatLabelTextView: 96b7c5a18739fd1af8fd9480f7943d75a7547e4d
+
+PODFILE CHECKSUM: ac1187d5fed2e8031f835fe555c16a630b86b7fe
+
+COCOAPODS: 1.11.3

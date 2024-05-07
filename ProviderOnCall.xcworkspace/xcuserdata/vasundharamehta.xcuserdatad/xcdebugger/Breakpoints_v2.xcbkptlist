@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "566168E9-478C-49C9-A4B3-DA3CB2F31AF7"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4F704D1E-ADF2-44B4-8D9B-97149AF2D837"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Networking/UserService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "18"
+            endingLineNumber = "18"
+            landmarkName = "unknown"
+            landmarkType = "0">
+            <Locations>
+               <Location
+                  uuid = "4F704D1E-ADF2-44B4-8D9B-97149AF2D837 - 5a1a2bbd8bfb3e78"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (AccessEMR.Result&lt;Swift.Dictionary&lt;Swift.String, Any&gt;&gt;) -&gt; () in AccessEMR.UserService.doLogin(with: Swift.Optional&lt;AccessEMR.BaseViewModel&gt;, email: Swift.String, password: Swift.String, completion: (Swift.Optional&lt;Any&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "AccessEMR"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vasundharamehta/Documents/Projects/AccessEMR_Phase3/Networking/UserService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "237">
+               </Location>
+               <Location
+                  uuid = "4F704D1E-ADF2-44B4-8D9B-97149AF2D837 - 141aa1c23c435dae"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; () in closure #1 (AccessEMR.Result&lt;Swift.Dictionary&lt;Swift.String, Any&gt;&gt;) -&gt; () in AccessEMR.UserService.doLogin(with: Swift.Optional&lt;AccessEMR.BaseViewModel&gt;, email: Swift.String, password: Swift.String, completion: (Swift.Optional&lt;Any&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "AccessEMR"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vasundharamehta/Documents/Projects/AccessEMR_Phase3/Networking/UserService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "20"
+                  endingLineNumber = "20"
+                  offsetFromSymbolStart = "311">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "12234654-63E9-4732-AF70-BABBDBBD8874"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Networking/UserService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "17"
+            endingLineNumber = "17"
+            landmarkName = "unknown"
+            landmarkType = "0">
+            <Locations>
+               <Location
+                  uuid = "12234654-63E9-4732-AF70-BABBDBBD8874 - 7bfd4710805d3351"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AccessEMR.UserService.doLogin(with: Swift.Optional&lt;AccessEMR.BaseViewModel&gt;, email: Swift.String, password: Swift.String, completion: (Swift.Optional&lt;Any&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "AccessEMR"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vasundharamehta/Documents/Projects/AccessEMR_Phase3/Networking/UserService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
+                  offsetFromSymbolStart = "1079">
+               </Location>
+               <Location
+                  uuid = "12234654-63E9-4732-AF70-BABBDBBD8874 - 5a1a2bbd8bfb3e78"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (AccessEMR.Result&lt;Swift.Dictionary&lt;Swift.String, Any&gt;&gt;) -&gt; () in AccessEMR.UserService.doLogin(with: Swift.Optional&lt;AccessEMR.BaseViewModel&gt;, email: Swift.String, password: Swift.String, completion: (Swift.Optional&lt;Any&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "AccessEMR"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vasundharamehta/Documents/Projects/AccessEMR_Phase3/Networking/UserService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "237">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1EB6D7F4-D990-4FD1-8842-60B934017151"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Networking/ResidentService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "21"
+            endingLineNumber = "21"
+            landmarkName = "getResidentList(with:searchText:locationId:pageNo:completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "1EB6D7F4-D990-4FD1-8842-60B934017151 - f6427274ceae2f75"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AccessEMR.ResidentService.getResidentList(with: Swift.Optional&lt;AccessEMR.BaseViewModel&gt;, searchText: Swift.String, locationId: Swift.Int, pageNo: Swift.Int, completion: (Swift.Optional&lt;Any&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "AccessEMR"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vasundharamehta/Documents/Projects/AccessEMR_Phase3/Networking/ResidentService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "21"
+                  endingLineNumber = "21"
+                  offsetFromSymbolStart = "2476">
+               </Location>
+               <Location
+                  uuid = "1EB6D7F4-D990-4FD1-8842-60B934017151 - 8a7a166cc80dc4f6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (AccessEMR.Result&lt;Swift.Dictionary&lt;Swift.String, Any&gt;&gt;) -&gt; () in AccessEMR.ResidentService.getResidentList(with: Swift.Optional&lt;AccessEMR.BaseViewModel&gt;, searchText: Swift.String, locationId: Swift.Int, pageNo: Swift.Int, completion: (Swift.Optional&lt;Any&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "AccessEMR"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vasundharamehta/Documents/Projects/AccessEMR_Phase3/Networking/ResidentService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "22"
+                  endingLineNumber = "22"
+                  offsetFromSymbolStart = "237">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "ED40B502-AB8D-44A7-8346-5F50A4F2C8D0"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Networking/ResidentService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "14"
+            endingLineNumber = "14"
+            landmarkName = "getResidentList(with:searchText:locationId:pageNo:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "EA2EBE10-F8E1-4270-9F10-75FEE5448401"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AccessEMR/Controllers/Setting/ViewController/SettingsViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "160"
+            endingLineNumber = "160"
+            landmarkName = "checkAllResidentAreVisited(completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3EE819C0-3AE6-42B8-AA18-2707CBB16C41"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AccessEMR/Controllers/Setting/ViewController/SettingsViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "138"
+            endingLineNumber = "138"
+            landmarkName = "showClockInPopupHomeCare()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "739BB7D7-18E6-4E9A-8458-F7F3A8890633"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AccessEMR/Controllers/MyTask/ViewController/FollowingTaskListViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "261"
+            endingLineNumber = "261"
+            landmarkName = "setUpData()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

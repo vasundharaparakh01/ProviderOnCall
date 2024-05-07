@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15702" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15704"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="poppins_regular.ttf">
+            <string>Poppins-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="TitleDoubleInputCell" customModule="AccessEMR" customModuleProvider="target"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="89" id="I2x-HM-NYw" customClass="TitleDoubleInputCell" customModule="AccessEMR" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="89"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="I2x-HM-NYw" id="3ka-W8-95f">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="89"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ku0-uy-FSb">
+                        <rect key="frame" x="15" y="10" width="290" height="29"/>
+                        <fontDescription key="fontDescription" name="Poppins-Regular" family="Poppins" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                        <variation key="heightClass=regular-widthClass=regular">
+                            <fontDescription key="fontDescription" name="Poppins-Regular" family="Poppins" pointSize="19"/>
+                        </variation>
+                    </label>
+                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="vLd-Rc-TEE" customClass="InputTextField" customModule="AccessEMR" customModuleProvider="target">
+                        <rect key="frame" x="15" y="39" width="137.5" height="40"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="40" id="H0Y-4C-av6">
+                                <variation key="heightClass=regular-widthClass=regular" constant="60"/>
+                            </constraint>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <textInputTraits key="textInputTraits"/>
+                    </textField>
+                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="wjv-L5-Eam" customClass="InputTextField" customModule="AccessEMR" customModuleProvider="target">
+                        <rect key="frame" x="167.5" y="39" width="137.5" height="40"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="40" id="zEs-S2-GY9">
+                                <variation key="heightClass=regular-widthClass=regular" constant="60"/>
+                            </constraint>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <textInputTraits key="textInputTraits"/>
+                    </textField>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="ku0-uy-FSb" secondAttribute="trailing" constant="15" id="84A-pv-4Q0"/>
+                    <constraint firstAttribute="bottom" secondItem="vLd-Rc-TEE" secondAttribute="bottom" constant="10" id="8kk-NZ-WIn"/>
+                    <constraint firstItem="ku0-uy-FSb" firstAttribute="top" secondItem="3ka-W8-95f" secondAttribute="top" constant="10" id="FOK-aP-uKk"/>
+                    <constraint firstItem="wjv-L5-Eam" firstAttribute="leading" secondItem="vLd-Rc-TEE" secondAttribute="trailing" constant="15" id="QZZ-rC-Trt"/>
+                    <constraint firstItem="ku0-uy-FSb" firstAttribute="leading" secondItem="3ka-W8-95f" secondAttribute="leading" constant="15" id="SqT-h4-oFf"/>
+                    <constraint firstAttribute="trailing" secondItem="wjv-L5-Eam" secondAttribute="trailing" constant="15" id="Zib-Lv-MMR"/>
+                    <constraint firstItem="wjv-L5-Eam" firstAttribute="width" secondItem="vLd-Rc-TEE" secondAttribute="width" id="eS1-cB-Z2y"/>
+                    <constraint firstAttribute="bottom" secondItem="wjv-L5-Eam" secondAttribute="bottom" constant="10" id="nyd-fQ-43B"/>
+                    <constraint firstItem="vLd-Rc-TEE" firstAttribute="leading" secondItem="3ka-W8-95f" secondAttribute="leading" constant="15" id="pSG-eo-MSG"/>
+                    <constraint firstItem="vLd-Rc-TEE" firstAttribute="top" secondItem="ku0-uy-FSb" secondAttribute="bottom" id="vNY-ld-LYe"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="yFi-67-t1k"/>
+            <connections>
+                <outlet property="inputTf1" destination="vLd-Rc-TEE" id="5of-RX-9do"/>
+                <outlet property="inputTf2" destination="wjv-L5-Eam" id="5oI-mA-NWQ"/>
+                <outlet property="lblTitle" destination="ku0-uy-FSb" id="hKJ-0p-Mdj"/>
+            </connections>
+            <point key="canvasLocation" x="134.78260869565219" y="102.12053571428571"/>
+        </tableViewCell>
+    </objects>
+</document>

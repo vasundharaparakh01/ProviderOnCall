@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "A5FB8A6E-5DF1-467E-BF4D-1D9C9E2A6EBD"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "AD96EB77-A8F2-4F7D-AF50-10A59C507951"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AccessEMR/Controllers/PointOfCare/ViewModel/NCFNutritionViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "524"
+            endingLineNumber = "524"
+            landmarkName = "resetCallData()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F17C47F4-3B10-424F-9903-0B182BF860FB"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AccessEMR/Controllers/PointOfCare/ViewController/NCFNutritionViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "1777"
+            endingLineNumber = "1777"
+            landmarkName = "yesNowHideShowData(cell:textField:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5692C916-C2D7-4D1A-BC95-F40528AEAD2F"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AccessEMR/Controllers/PointOfCare/ViewModel/NCFNutritionViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "501"
+            endingLineNumber = "501"
+            landmarkName = "getEmesisArray(emesisObject:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D798CD5D-F49E-472C-91A1-68D952BDBE38"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AccessEMR/Controllers/PointOfCare/ViewModel/NCFNutritionViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "492"
+            endingLineNumber = "492"
+            landmarkName = "getEmesisArray(emesisObject:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8C3ADCBD-8EB8-4B30-9AC3-3747A84CE087"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AccessEMR/Controllers/PointOfCare/ViewController/NCFNutritionViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "773"
+            endingLineNumber = "773"
+            landmarkName = "tableView(_:cellForRowAt:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "19EF56FC-D81D-4557-A891-7F4CE26457A5"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AccessEMR/Controllers/CarePlan/ViewController/CarePlanViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "94"
+            endingLineNumber = "94"
+            landmarkName = "tableView(_:didSelectRowAt:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F5F3545D-C909-40D6-9798-969117A068F0"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AccessEMR/Controllers/PointOfCare/ViewController/NursingCareFlowViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "184"
+            endingLineNumber = "184"
+            landmarkName = "onRightBarButtonItemClicked(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3CB4E74D-1B8C-4C84-9560-1E21EB33D3EE"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AccessEMR/Controllers/TAR/ViewModel/CreateTARViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "63"
+            endingLineNumber = "63"
+            landmarkName = "createTAR(params:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "3CB4E74D-1B8C-4C84-9560-1E21EB33D3EE - 3911619cae7995f7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AccessEMR.CreateTARViewModel.createTAR(params: Swift.Dictionary&lt;Swift.String, Any&gt;) -&gt; ()"
+                  moduleName = "AccessEMR"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sorabhgupta/Documents/AccessEMR/IOS-AccessEMR/AccessEMR/Controllers/TAR/ViewModel/CreateTARViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "63"
+                  endingLineNumber = "63"
+                  offsetFromSymbolStart = "124">
+               </Location>
+               <Location
+                  uuid = "3CB4E74D-1B8C-4C84-9560-1E21EB33D3EE - 28f0ef9c162f0d79"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;Any&gt;) -&gt; () in AccessEMR.CreateTARViewModel.createTAR(params: Swift.Dictionary&lt;Swift.String, Any&gt;) -&gt; ()"
+                  moduleName = "AccessEMR"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sorabhgupta/Documents/AccessEMR/IOS-AccessEMR/AccessEMR/Controllers/TAR/ViewModel/CreateTARViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "64"
+                  endingLineNumber = "64"
+                  offsetFromSymbolStart = "145">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E992A25F-F3D6-4C87-BF90-D91FB0BB4256"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AccessEMR/Controllers/Login/ViewModel/OrganisationTypeViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "29"
+            endingLineNumber = "29"
+            landmarkName = "verifyBusiness(with:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "CE746DCE-B0F0-4A9F-B069-16DFE1EC2B0B"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AccessEMR/Controllers/Login/ViewModel/OrganisationTypeViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "32"
+            endingLineNumber = "32"
+            landmarkName = "verifyBusiness(with:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0AF8DF02-2059-481F-8959-483D70FAACFE"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Networking/UserService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "168"
+            endingLineNumber = "168"
+            landmarkName = "verifyBusinessToken(with:target:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "CDB7319A-3A10-4EF7-884F-680E82FAC377"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Networking/UserService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "169"
+            endingLineNumber = "169"
+            landmarkName = "verifyBusinessToken(with:target:completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "CDB7319A-3A10-4EF7-884F-680E82FAC377 - 57f9e1fce41fcef7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AccessEMR.UserService.verifyBusinessToken(with: Swift.String, target: Swift.Optional&lt;AccessEMR.BaseViewModel&gt;, completion: (Swift.Optional&lt;Any&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "AccessEMR"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sorabhgupta/Documents/AccessEMR/IOS-AccessEMR/Networking/UserService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "169"
+                  endingLineNumber = "169"
+                  offsetFromSymbolStart = "290">
+               </Location>
+               <Location
+                  uuid = "CDB7319A-3A10-4EF7-884F-680E82FAC377 - 6885a44b31101cf4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (AccessEMR.Result&lt;Swift.Dictionary&lt;Swift.String, Any&gt;&gt;) -&gt; () in AccessEMR.UserService.verifyBusinessToken(with: Swift.String, target: Swift.Optional&lt;AccessEMR.BaseViewModel&gt;, completion: (Swift.Optional&lt;Any&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "AccessEMR"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sorabhgupta/Documents/AccessEMR/IOS-AccessEMR/Networking/UserService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "170"
+                  endingLineNumber = "170"
+                  offsetFromSymbolStart = "237">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "00F0F1A3-BE2B-4CF0-A8D5-93FADAE36F1A"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AccessEMR/Controllers/Login/ViewModel/OrganisationTypeViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "30"
+            endingLineNumber = "30"
+            landmarkName = "verifyBusiness(with:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "00F0F1A3-BE2B-4CF0-A8D5-93FADAE36F1A - 8e1340aabd72301d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AccessEMR.OrganisationTypeViewModel.verifyBusiness(with: Swift.Optional&lt;Swift.String&gt;) -&gt; ()"
+                  moduleName = "AccessEMR"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sorabhgupta/Documents/AccessEMR/IOS-AccessEMR/AccessEMR/Controllers/Login/ViewModel/OrganisationTypeViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "30"
+                  endingLineNumber = "30"
+                  offsetFromSymbolStart = "169">
+               </Location>
+               <Location
+                  uuid = "00F0F1A3-BE2B-4CF0-A8D5-93FADAE36F1A - b019069757e785fb"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;Any&gt;) -&gt; () in AccessEMR.OrganisationTypeViewModel.verifyBusiness(with: Swift.Optional&lt;Swift.String&gt;) -&gt; ()"
+                  moduleName = "AccessEMR"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sorabhgupta/Documents/AccessEMR/IOS-AccessEMR/AccessEMR/Controllers/Login/ViewModel/OrganisationTypeViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "31"
+                  endingLineNumber = "31"
+                  offsetFromSymbolStart = "159">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

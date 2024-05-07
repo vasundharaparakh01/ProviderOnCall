@@ -1,0 +1,241 @@
+{
+  "routes" : [
+    {
+      "bounds" : {
+        "northeast" : {
+          "lat" : 21.148288900000001,
+          "lng" : 79.131823099999991
+        },
+        "southwest" : {
+          "lat" : 21.1386553,
+          "lng" : 79.119613300000012
+        }
+      },
+      "summary" : "Old Bagadganj Rd\/St Rajinder Singh Ji Marg",
+      "waypoint_order" : [
+
+      ],
+      "legs" : [
+        {
+          "start_location" : {
+            "lat" : 21.148102600000001,
+            "lng" : 79.131823099999991
+          },
+          "distance" : {
+            "value" : 2217,
+            "text" : "2.2 km"
+          },
+          "start_address" : "Yash Plaza, 7, Central Ave, Wardhaman Nagar Colony, Nagpur, Maharashtra 440008, India",
+          "steps" : [
+            {
+              "html_instructions" : "Head <b>west<\/b> on <b>Central Ave<\/b>\/<wbr\/><b>Dongargarh - Nagpur Rd<\/b>\/<wbr\/><b>Nagpur - Bhandara - Rajnandgaon - Raipur Hwy<\/b> toward <b>Dr Ambedkar Square<\/b>",
+              "start_location" : {
+                "lat" : 21.148102600000001,
+                "lng" : 79.131823099999991
+              },
+              "distance" : {
+                "value" : 307,
+                "text" : "0.3 km"
+              },
+              "travel_mode" : "DRIVING",
+              "duration" : {
+                "value" : 36,
+                "text" : "1 min"
+              },
+              "polyline" : {
+                "points" : "sna`C{l~aNC|AExC[tI"
+              },
+              "end_location" : {
+                "lat" : 21.148288900000001,
+                "lng" : 79.128873400000003
+              }
+            },
+            {
+              "html_instructions" : "At <b>Dr Ambedkar Square<\/b>, take the <b>1st<\/b> exit",
+              "start_location" : {
+                "lat" : 21.148288900000001,
+                "lng" : 79.128873400000003
+              },
+              "distance" : {
+                "value" : 431,
+                "text" : "0.4 km"
+              },
+              "travel_mode" : "DRIVING",
+              "maneuver" : "roundabout-left",
+              "duration" : {
+                "value" : 65,
+                "text" : "1 min"
+              },
+              "polyline" : {
+                "points" : "yoa`Cmz}aNBBBB?D`@Fn@BXBl@BxGRjBBL?~@?fCP"
+              },
+              "end_location" : {
+                "lat" : 21.144462799999999,
+                "lng" : 79.128492600000001
+              }
+            },
+            {
+              "html_instructions" : "Turn <b>right<\/b> at <b>Shashtri Nagar Chowk<\/b> onto <b>Inox Rd<\/b>",
+              "start_location" : {
+                "lat" : 21.144462799999999,
+                "lng" : 79.128492600000001
+              },
+              "distance" : {
+                "value" : 415,
+                "text" : "0.4 km"
+              },
+              "travel_mode" : "DRIVING",
+              "maneuver" : "turn-right",
+              "duration" : {
+                "value" : 45,
+                "text" : "1 min"
+              },
+              "polyline" : {
+                "points" : "{w``Cax}aNP?@P@JBNBN@HTdANx@DRXnANh@@@J`@DP|@lBLZFNDLDNDTBPBPBRBVBn@"
+              },
+              "end_location" : {
+                "lat" : 21.1431608,
+                "lng" : 79.124839299999991
+              }
+            },
+            {
+              "html_instructions" : "Continue onto <b>Old Bagadganj Rd<\/b>\/<wbr\/><b>St Rajinder Singh Ji Marg<\/b>",
+              "start_location" : {
+                "lat" : 21.1431608,
+                "lng" : 79.124839299999991
+              },
+              "distance" : {
+                "value" : 504,
+                "text" : "0.5 km"
+              },
+              "travel_mode" : "DRIVING",
+              "duration" : {
+                "value" : 53,
+                "text" : "1 min"
+              },
+              "polyline" : {
+                "points" : "wo``Cga}aN?VJbAT|BJnBFn@@XDvB@JZ|HHbABj@"
+              },
+              "end_location" : {
+                "lat" : 21.142627300000001,
+                "lng" : 79.120013799999995
+              }
+            },
+            {
+              "html_instructions" : "Turn <b>left<\/b> onto <b>Gangabai Ghat Rd<\/b><div style=\"font-size:0.9em\">Pass by Gayatri Mandir (on the right in 400&nbsp;m)<\/div>",
+              "start_location" : {
+                "lat" : 21.142627300000001,
+                "lng" : 79.120013799999995
+              },
+              "distance" : {
+                "value" : 430,
+                "text" : "0.4 km"
+              },
+              "travel_mode" : "DRIVING",
+              "maneuver" : "turn-left",
+              "duration" : {
+                "value" : 56,
+                "text" : "1 min"
+              },
+              "polyline" : {
+                "points" : "ml``Cac|aNLRLLXPlABv@?~@@PBx@DnADL?tABbB@nC?"
+              },
+              "end_location" : {
+                "lat" : 21.138865599999999,
+                "lng" : 79.119613300000012
+              }
+            },
+            {
+              "html_instructions" : "Turn <b>left<\/b> onto <b>Great Nag Rd<\/b>\/<wbr\/><b>KDK College Rd<\/b>",
+              "start_location" : {
+                "lat" : 21.138865599999999,
+                "lng" : 79.119613300000012
+              },
+              "distance" : {
+                "value" : 70,
+                "text" : "70 m"
+              },
+              "travel_mode" : "DRIVING",
+              "maneuver" : "turn-left",
+              "duration" : {
+                "value" : 12,
+                "text" : "1 min"
+              },
+              "polyline" : {
+                "points" : "}t_`Cq`|aNTOJQDG@iA"
+              },
+              "end_location" : {
+                "lat" : 21.138656300000001,
+                "lng" : 79.120194099999992
+              }
+            },
+            {
+              "html_instructions" : "Turn <b>left<\/b> at <b>Canal Rd<\/b><div style=\"font-size:0.9em\">Destination will be on the left<\/div>",
+              "start_location" : {
+                "lat" : 21.138656300000001,
+                "lng" : 79.120194099999992
+              },
+              "distance" : {
+                "value" : 60,
+                "text" : "60 m"
+              },
+              "travel_mode" : "DRIVING",
+              "maneuver" : "turn-left",
+              "duration" : {
+                "value" : 10,
+                "text" : "1 min"
+              },
+              "polyline" : {
+                "points" : "ss_`Ced|aN?]?G?Eg@A[?"
+              },
+              "end_location" : {
+                "lat" : 21.138999500000001,
+                "lng" : 79.120417599999996
+              }
+            }
+          ],
+          "traffic_speed_entry" : [
+
+          ],
+          "end_address" : "1, Great Nag Rd, Jagnade square, Nandanvan, Nagpur, Maharashtra 440009, India",
+          "duration" : {
+            "value" : 277,
+            "text" : "5 mins"
+          },
+          "via_waypoint" : [
+
+          ],
+          "end_location" : {
+            "lat" : 21.138999500000001,
+            "lng" : 79.120417599999996
+          }
+        }
+      ],
+      "warnings" : [
+
+      ],
+      "copyrights" : "Map data ©2020",
+      "overview_polyline" : {
+        "points" : "sna`C{l~aNIvF[tIBBBH`@Fn@BfAFdKVlA?xCPJ|@l@|Cv@|CbA~BTj@TdANlBJzAT|BJnBHhAFbCZ|HHbABj@LRf@^dCBpADhCJvIDTOJQDG@iA?e@?Eg@A[?"
+      }
+    }
+  ],
+  "geocoded_waypoints" : [
+    {
+      "place_id" : "ChIJ33jf_j_H1DsRf7vuxy2cIVk",
+      "types" : [
+        "street_address"
+      ],
+      "geocoder_status" : "OK"
+    },
+    {
+      "place_id" : "ChIJ45cscE_H1DsRbXoKKjgWYOc",
+      "types" : [
+        "street_address"
+      ],
+      "geocoder_status" : "OK"
+    }
+  ],
+  "status" : "OK"
+}
+

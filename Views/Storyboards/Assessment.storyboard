@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="poppins_regular.ttf">
+            <string>Poppins-Regular</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--Assessment View Controller-->
+        <scene sceneID="fY5-ni-OlA">
+            <objects>
+                <viewController storyboardIdentifier="AssessmentViewController" id="LCG-85-Ttt" customClass="AssessmentViewController" customModule="AccessEMR" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5HA-Gc-Tab">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Gcg-vR-PF4" customClass="ResidentCardView" customModule="AccessEMR" customModuleProvider="target">
+                                <rect key="frame" x="20" y="54" width="374" height="170"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="170" id="bsG-6E-ach"/>
+                                </constraints>
+                            </view>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="z8b-4r-gBx">
+                                <rect key="frame" x="20" y="239" width="374" height="613"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="LCG-85-Ttt" id="cbO-0L-BeC"/>
+                                    <outlet property="delegate" destination="LCG-85-Ttt" id="anP-cA-EID"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="Gcg-vR-PF4" firstAttribute="top" secondItem="cie-mX-Wo0" secondAttribute="top" constant="10" id="Jn9-XJ-e3W"/>
+                            <constraint firstItem="z8b-4r-gBx" firstAttribute="leading" secondItem="cie-mX-Wo0" secondAttribute="leading" constant="20" id="TFP-8i-mhz"/>
+                            <constraint firstItem="Gcg-vR-PF4" firstAttribute="leading" secondItem="cie-mX-Wo0" secondAttribute="leading" constant="20" id="eg9-7J-zwh"/>
+                            <constraint firstItem="z8b-4r-gBx" firstAttribute="top" secondItem="Gcg-vR-PF4" secondAttribute="bottom" constant="15" id="gWM-ad-cFb"/>
+                            <constraint firstItem="cie-mX-Wo0" firstAttribute="trailing" secondItem="Gcg-vR-PF4" secondAttribute="trailing" constant="20" id="jVp-E3-9C0"/>
+                            <constraint firstItem="cie-mX-Wo0" firstAttribute="trailing" secondItem="z8b-4r-gBx" secondAttribute="trailing" constant="20" id="mMo-Ic-49U"/>
+                            <constraint firstItem="cie-mX-Wo0" firstAttribute="bottom" secondItem="z8b-4r-gBx" secondAttribute="bottom" constant="10" id="t76-jo-onW"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="cie-mX-Wo0"/>
+                    </view>
+                    <connections>
+                        <outlet property="residentCardView" destination="Gcg-vR-PF4" id="52x-vk-xiF"/>
+                        <outlet property="tblView" destination="z8b-4r-gBx" id="8Xr-jE-9Eb"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="IYv-Gc-d7Y" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-345" y="10"/>
+        </scene>
+        <!--Fall Assessment View Controller-->
+        <scene sceneID="d6U-P1-Lwh">
+            <objects>
+                <viewController storyboardIdentifier="FallAssessmentViewController" id="cJN-6R-ziF" customClass="FallAssessmentViewController" customModule="AccessEMR" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="nJy-6r-zjn">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" bounces="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" bouncesZoom="NO" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="Sdf-P1-Wr0">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="811"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="cJN-6R-ziF" id="eES-lU-jYi"/>
+                                    <outlet property="delegate" destination="cJN-6R-ziF" id="zMD-z8-aLG"/>
+                                </connections>
+                            </tableView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="53F-M0-ZIW" customClass="ActionButton" customModule="AccessEMR" customModuleProvider="target">
+                                <rect key="frame" x="127" y="826" width="160" height="50"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="Frl-fb-bq9"/>
+                                    <constraint firstAttribute="width" constant="160" id="ltT-fc-WTz"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Poppins-Regular" family="Poppins" pointSize="18"/>
+                                <state key="normal" title="Add signature" backgroundImage="btn_background">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="20"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="btnSignature_Action:" destination="cJN-6R-ziF" eventType="touchUpInside" id="zCB-kd-vvh"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="53F-M0-ZIW" firstAttribute="centerX" secondItem="nJy-6r-zjn" secondAttribute="centerX" id="SL8-ih-Uug"/>
+                            <constraint firstAttribute="bottom" secondItem="53F-M0-ZIW" secondAttribute="bottom" constant="20" id="amv-yE-4J2"/>
+                            <constraint firstItem="Sdf-P1-Wr0" firstAttribute="top" secondItem="nJy-6r-zjn" secondAttribute="top" id="dNq-lc-UFp"/>
+                            <constraint firstItem="53F-M0-ZIW" firstAttribute="top" secondItem="Sdf-P1-Wr0" secondAttribute="bottom" constant="15" id="kMq-vV-8Vq"/>
+                            <constraint firstItem="Sdf-P1-Wr0" firstAttribute="trailing" secondItem="Wuk-mm-QRI" secondAttribute="trailing" id="m42-Eq-ktw"/>
+                            <constraint firstItem="Sdf-P1-Wr0" firstAttribute="leading" secondItem="Wuk-mm-QRI" secondAttribute="leading" id="ygh-13-FCb"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="Wuk-mm-QRI"/>
+                    </view>
+                    <connections>
+                        <outlet property="tblView" destination="Sdf-P1-Wr0" id="hj0-JG-djP"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3bX-9B-V8R" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="298.55072463768118" y="9.375"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="btn_background" width="163" height="50"/>
+    </resources>
+</document>

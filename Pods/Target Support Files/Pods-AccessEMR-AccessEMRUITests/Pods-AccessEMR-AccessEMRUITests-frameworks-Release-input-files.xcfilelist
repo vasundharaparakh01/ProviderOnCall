@@ -1,0 +1,14 @@
+${PODS_ROOT}/Target Support Files/Pods-AccessEMR-AccessEMRUITests/Pods-AccessEMR-AccessEMRUITests-frameworks.sh
+${BUILT_PRODUCTS_DIR}/Charts/Charts.framework
+${BUILT_PRODUCTS_DIR}/EasyTipView/EasyTipView.framework
+${BUILT_PRODUCTS_DIR}/FSCalendar/FSCalendar.framework
+${BUILT_PRODUCTS_DIR}/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework
+${BUILT_PRODUCTS_DIR}/LMGraphView/LMGraphView.framework
+${BUILT_PRODUCTS_DIR}/NVActivityIndicatorView/NVActivityIndicatorView.framework
+${BUILT_PRODUCTS_DIR}/OpalImagePicker/OpalImagePicker.framework
+${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework
+${BUILT_PRODUCTS_DIR}/SkyFloatingLabelTextField/SkyFloatingLabelTextField.framework
+${BUILT_PRODUCTS_DIR}/StepSlider/StepSlider.framework
+${BUILT_PRODUCTS_DIR}/SwiftSignalRClient/SwiftSignalRClient.framework
+${BUILT_PRODUCTS_DIR}/TTSegmentedControl/TTSegmentedControl.framework
+${BUILT_PRODUCTS_DIR}/UIFloatLabelTextView/UIFloatLabelTextView.framework

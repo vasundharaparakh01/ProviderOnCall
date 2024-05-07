@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15702" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15704"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="KGk-i7-Jjw" customClass="DoubleInputCell" customModule="AccessEMR" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="UoG-SM-4UY" customClass="InputTextField" customModule="AccessEMR" customModuleProvider="target">
+                        <rect key="frame" x="15" y="10" width="137.5" height="24"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <textInputTraits key="textInputTraits"/>
+                    </textField>
+                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ZcD-gW-kbt" customClass="InputTextField" customModule="AccessEMR" customModuleProvider="target">
+                        <rect key="frame" x="167.5" y="10" width="137.5" height="24"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <textInputTraits key="textInputTraits"/>
+                    </textField>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="ZcD-gW-kbt" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="21q-m5-zo0"/>
+                    <constraint firstItem="UoG-SM-4UY" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="2KX-g1-k4f"/>
+                    <constraint firstAttribute="bottom" secondItem="UoG-SM-4UY" secondAttribute="bottom" constant="10" id="4s8-yx-kr2"/>
+                    <constraint firstItem="ZcD-gW-kbt" firstAttribute="width" secondItem="UoG-SM-4UY" secondAttribute="width" id="EKV-Tj-glr"/>
+                    <constraint firstItem="UoG-SM-4UY" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="15" id="GiY-xR-BIC"/>
+                    <constraint firstAttribute="bottom" secondItem="ZcD-gW-kbt" secondAttribute="bottom" constant="10" id="QYg-b9-naE"/>
+                    <constraint firstAttribute="trailing" secondItem="ZcD-gW-kbt" secondAttribute="trailing" constant="15" id="WGI-xr-JWZ"/>
+                    <constraint firstItem="ZcD-gW-kbt" firstAttribute="leading" secondItem="UoG-SM-4UY" secondAttribute="trailing" constant="15" id="eVZ-5n-VUe"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="inputTf1" destination="UoG-SM-4UY" id="66P-np-0m5"/>
+                <outlet property="inputTf2" destination="ZcD-gW-kbt" id="Q3O-bs-VAY"/>
+            </connections>
+            <point key="canvasLocation" x="133" y="101"/>
+        </tableViewCell>
+    </objects>
+</document>

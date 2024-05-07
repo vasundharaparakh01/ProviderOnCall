@@ -1,0 +1,11 @@
+/* 
+  Localizable.strings
+  AccessEMRPOC
+
+  Created by Amit Shukla on 28/01/20.
+  Copyright © 2020 smartData Enterprises (I) Ltd. All rights reserved.
+*/
+
+"Sign In" = "Sign In";
+"Email" = "Email";
+"Password" = "Password";

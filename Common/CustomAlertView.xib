@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Poppins-Medium.ttf">
+            <string>Poppins-Medium</string>
+        </array>
+        <array key="Poppins-Regular.ttf">
+            <string>Poppins-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="ff5-S1-s2X" customClass="CustomAlertView" customModule="AccessEMR" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Idl-eO-OHK">
+                    <rect key="frame" x="57" y="338" width="300" height="220"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="l8s-4P-kug">
+                            <rect key="frame" x="22.5" y="169" width="255" height="1"/>
+                            <color key="backgroundColor" red="0.72156862749999995" green="0.71372549019999998" blue="0.71372549019999998" alpha="1" colorSpace="calibratedRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="1" id="lIg-sl-bQU"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Do you want to log out? All progress will be lost." textAlignment="center" lineBreakMode="wordWrap" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hmc-oF-dH4">
+                            <rect key="frame" x="15" y="39" width="270" height="130"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="130" id="gdf-JU-Olw"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="Poppins-Regular" family="Poppins" pointSize="16"/>
+                            <color key="textColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8Lx-cT-XP7">
+                            <rect key="frame" x="150.5" y="170" width="149.5" height="50"/>
+                            <fontDescription key="fontDescription" name="Poppins-Medium" family="Poppins" pointSize="17"/>
+                            <state key="normal" title="LOG OUT">
+                                <color key="titleColor" red="0.81176470590000005" green="0.090196078430000007" blue="0.1215686275" alpha="1" colorSpace="calibratedRGB"/>
+                            </state>
+                            <connections>
+                                <action selector="btnRight_action:" destination="ff5-S1-s2X" eventType="touchUpInside" id="RAc-cP-sao"/>
+                            </connections>
+                        </button>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Access EMR" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yIR-1b-npD">
+                            <rect key="frame" x="0.0" y="14" width="300" height="25"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="25" id="IA6-2v-Ea3"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="Poppins-Medium" family="Poppins" pointSize="18"/>
+                            <color key="textColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pri-YQ-rC3">
+                            <rect key="frame" x="149.5" y="178" width="1" height="37"/>
+                            <color key="backgroundColor" red="0.72156862749999995" green="0.71372549019999998" blue="0.71372549019999998" alpha="1" colorSpace="calibratedRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="1" id="SJv-dq-tXq"/>
+                                <constraint firstAttribute="height" constant="37" id="muX-k1-IbV"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hHQ-11-gYZ">
+                            <rect key="frame" x="0.0" y="170" width="149.5" height="50"/>
+                            <fontDescription key="fontDescription" name="Poppins-Medium" family="Poppins" pointSize="17"/>
+                            <state key="normal" title="CANCEL">
+                                <color key="titleColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                            </state>
+                            <connections>
+                                <action selector="btnLeft_Action:" destination="ff5-S1-s2X" eventType="touchUpInside" id="bf9-77-r4K"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstItem="l8s-4P-kug" firstAttribute="centerX" secondItem="Idl-eO-OHK" secondAttribute="centerX" id="0kh-GU-KZ2"/>
+                        <constraint firstItem="yIR-1b-npD" firstAttribute="leading" secondItem="Idl-eO-OHK" secondAttribute="leading" id="1az-tU-xMA"/>
+                        <constraint firstAttribute="trailing" secondItem="8Lx-cT-XP7" secondAttribute="trailing" id="1ow-mc-tjs"/>
+                        <constraint firstAttribute="bottom" secondItem="hHQ-11-gYZ" secondAttribute="bottom" id="1p4-bK-1Pk"/>
+                        <constraint firstAttribute="trailing" secondItem="hmc-oF-dH4" secondAttribute="trailing" constant="15" id="89V-Ln-aex"/>
+                        <constraint firstAttribute="bottom" secondItem="8Lx-cT-XP7" secondAttribute="bottom" id="8Cf-fy-5uQ"/>
+                        <constraint firstAttribute="trailing" secondItem="yIR-1b-npD" secondAttribute="trailing" id="KCB-kN-K26"/>
+                        <constraint firstAttribute="width" constant="300" id="QX6-0x-LlE">
+                            <variation key="heightClass=regular-widthClass=regular" constant="600"/>
+                        </constraint>
+                        <constraint firstItem="pri-YQ-rC3" firstAttribute="leading" secondItem="hHQ-11-gYZ" secondAttribute="trailing" id="U1v-8E-pHh"/>
+                        <constraint firstItem="yIR-1b-npD" firstAttribute="top" secondItem="Idl-eO-OHK" secondAttribute="top" constant="14" id="Wv6-Ej-XrM"/>
+                        <constraint firstItem="hHQ-11-gYZ" firstAttribute="leading" secondItem="Idl-eO-OHK" secondAttribute="leading" id="Y8r-Tw-26J"/>
+                        <constraint firstItem="l8s-4P-kug" firstAttribute="width" secondItem="Idl-eO-OHK" secondAttribute="width" multiplier="0.85" id="bgm-AY-kwC"/>
+                        <constraint firstAttribute="bottom" secondItem="pri-YQ-rC3" secondAttribute="bottom" constant="5" id="bgu-EM-3SA"/>
+                        <constraint firstItem="hmc-oF-dH4" firstAttribute="top" secondItem="yIR-1b-npD" secondAttribute="bottom" id="fEz-ic-12T"/>
+                        <constraint firstAttribute="bottom" secondItem="l8s-4P-kug" secondAttribute="bottom" constant="50" id="fQD-dD-MV6"/>
+                        <constraint firstItem="hmc-oF-dH4" firstAttribute="leading" secondItem="Idl-eO-OHK" secondAttribute="leading" constant="15" id="hTJ-2w-2xD"/>
+                        <constraint firstItem="8Lx-cT-XP7" firstAttribute="leading" secondItem="pri-YQ-rC3" secondAttribute="trailing" id="jsD-8d-4Ja"/>
+                        <constraint firstAttribute="height" constant="220" id="luw-Ul-Puk"/>
+                        <constraint firstItem="8Lx-cT-XP7" firstAttribute="top" secondItem="l8s-4P-kug" secondAttribute="bottom" id="o9V-ti-SDG"/>
+                        <constraint firstItem="hHQ-11-gYZ" firstAttribute="top" secondItem="l8s-4P-kug" secondAttribute="bottom" id="qU0-nr-iPM"/>
+                        <constraint firstItem="pri-YQ-rC3" firstAttribute="centerX" secondItem="Idl-eO-OHK" secondAttribute="centerX" id="ryi-vC-EXW"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadiusView">
+                            <real key="value" value="5"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                            <real key="value" value="2"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                            <color key="value" red="0.21960784310000001" green="0.56470588239999997" blue="0.77647058820000003" alpha="1" colorSpace="calibratedRGB"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </view>
+                <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lcU-AC-rUr">
+                    <rect key="frame" x="332" y="313" width="25" height="25"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="25" id="Uuc-cl-bzb"/>
+                        <constraint firstAttribute="width" constant="25" id="yKa-4o-SCK"/>
+                    </constraints>
+                    <state key="normal" image="close"/>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="Idl-eO-OHK" firstAttribute="top" secondItem="lcU-AC-rUr" secondAttribute="bottom" id="BXG-Gt-r2F"/>
+                <constraint firstItem="Idl-eO-OHK" firstAttribute="centerY" secondItem="ff5-S1-s2X" secondAttribute="centerY" id="FJU-Oz-rvJ"/>
+                <constraint firstItem="lcU-AC-rUr" firstAttribute="trailing" secondItem="Idl-eO-OHK" secondAttribute="trailing" id="USt-Tn-s1O"/>
+                <constraint firstItem="Idl-eO-OHK" firstAttribute="centerX" secondItem="ff5-S1-s2X" secondAttribute="centerX" id="vTI-GO-aKM"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="Nkx-22-HhN"/>
+            <connections>
+                <outlet property="btnLeft" destination="hHQ-11-gYZ" id="flh-6z-EXR"/>
+                <outlet property="btnRight" destination="8Lx-cT-XP7" id="hCR-xM-Hbl"/>
+                <outlet property="lblSubtitle" destination="hmc-oF-dH4" id="j2Q-6s-6cl"/>
+                <outlet property="lblTitle" destination="yIR-1b-npD" id="rX6-Sa-03w"/>
+            </connections>
+            <point key="canvasLocation" x="-75.200000000000003" y="-90.404797601199405"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="close" width="50" height="50"/>
+    </resources>
+</document>
