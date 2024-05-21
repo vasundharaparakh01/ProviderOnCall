@@ -1,5 +1,5 @@
 #import <Foundation/Foundation.h>
-@interface PodsDummy_Pods_AccessEMRTests : NSObject
+@interface PodsDummy_Pods_appNameTests : NSObject
 @end
-@implementation PodsDummy_Pods_AccessEMRTests
+@implementation PodsDummy_Pods_appNameTests
 @end

@@ -1,6 +1,6 @@
 //
 //  ESASFormViewModel.swift
-//  AccessEMR
+//  appName
 //
 //  Created by Vasundhara Parakh on 3/23/20.
 //  Copyright © 2020 smartData Enterprises (I) Ltd. All rights reserved.
@@ -224,12 +224,12 @@ extension ESASFormViewModel{
             let shiftName = self.getDropdownName(id: self.esasRatingDetail?.shiftId ?? 0, dropdown: self.dropdownShift)
             self.selectedShift = Shift(dictionary: ["shiftName" : shiftName,"id" : self.esasRatingDetail?.shiftId ?? 0])
             
-            self.selectedUnitID =  SharedAccessEMR.sharedInstance.unitIDSymptomTracker ?? 0
+            self.selectedUnitID =   0
             // self.esasRatingDetail?.unitId ?? 0
         }
         
         //let unitName = self.getDropdownName(id: self.esasRatingDetail?.unitId ?? 0, dropdown: self.dropdownUnit ?? [""])
-        let unitName = self.getDropdownName(id: SharedAccessEMR.sharedInstance.unitIDSymptomTracker ?? 0, dropdown: self.dropdownUnit ?? [""])
+        let unitName = self.getDropdownName(id:  0, dropdown: self.dropdownUnit ?? [""])
         let shiftName = self.esasRatingDetail?.shiftName ?? ""
         return [
             [

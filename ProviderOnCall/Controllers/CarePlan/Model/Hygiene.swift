@@ -1,6 +1,6 @@
 //
 //  Hygiene.swift
-//  AccessEMR
+
 //
 //  Created by Vasundhara Parakh on 3/11/20.
 //  Copyright © 2020 smartData Enterprises (I) Ltd. All rights reserved.

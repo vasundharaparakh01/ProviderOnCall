@@ -1,6 +1,6 @@
 //
 //  ResidentListViewModel.swift
-//  AccessEMR
+//  appName
 //
 //  Created by Vasundhara Parakh on 2/25/20.
 //  Copyright © 2020 smartData Enterprises (I) Ltd. All rights reserved.
@@ -43,10 +43,10 @@ class ResidentListViewModel: BaseViewModel {
         }
         
         if searchText.count > 0 {
-            if  SharedAccessEMR.sharedInstance.strSearchCheck == searchText{
+            if  SharedappName.sharedInstance.strSearchCheck == searchText{
                 
             }else{
-                SharedAccessEMR.sharedInstance.strSearchCheck = searchText
+                SharedappName.sharedInstance.strSearchCheck = searchText
                 self.arrResidents.removeAll()
                 self.arrFilteredResidents.removeAll()
             }

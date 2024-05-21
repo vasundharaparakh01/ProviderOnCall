@@ -1,5 +1,5 @@
 #import <Foundation/Foundation.h>
-@interface PodsDummy_Pods_AccessEMR : NSObject
+@interface PodsDummy_Pods_appName : NSObject
 @end
-@implementation PodsDummy_Pods_AccessEMR
+@implementation PodsDummy_Pods_appName
 @end

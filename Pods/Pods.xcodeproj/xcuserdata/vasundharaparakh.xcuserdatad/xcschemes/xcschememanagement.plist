@@ -109,17 +109,17 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>Pods-AccessEMR-AccessEMRUITests.xcscheme</key>
+		<key>Pods-appName-appNameUITests.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>Pods-AccessEMR.xcscheme</key>
+		<key>Pods-appName.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>Pods-AccessEMRTests.xcscheme</key>
+		<key>Pods-appNameTests.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>

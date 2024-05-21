@@ -18,7 +18,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
-        <view contentMode="scaleToFill" id="ff5-S1-s2X" customClass="CustomAlertView" customModule="AccessEMR" customModuleProvider="target">
+        <view contentMode="scaleToFill" id="ff5-S1-s2X" customClass="CustomAlertView" customModule="appName" customModuleProvider="target">
             <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
@@ -54,7 +54,7 @@
                                 <action selector="btnRight_action:" destination="ff5-S1-s2X" eventType="touchUpInside" id="RAc-cP-sao"/>
                             </connections>
                         </button>
-                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Access EMR" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yIR-1b-npD">
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="App Name" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yIR-1b-npD">
                             <rect key="frame" x="0.0" y="14" width="300" height="25"/>
                             <constraints>
                                 <constraint firstAttribute="height" constant="25" id="IA6-2v-Ea3"/>

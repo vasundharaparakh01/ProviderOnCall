@@ -1,6 +1,6 @@
 //
 //  EMARService.swift
-//  AccessEMR
+//  appName
 //
 //  Created by Vasundhara Parakh on 4/13/20.
 //  Copyright © 2020 smartData Enterprises (I) Ltd. All rights reserved.

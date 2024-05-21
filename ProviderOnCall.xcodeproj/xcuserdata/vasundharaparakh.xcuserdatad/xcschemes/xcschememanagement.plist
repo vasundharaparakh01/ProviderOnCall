@@ -4,22 +4,22 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>AccessEMR.xcscheme</key>
+		<key>appName.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>5</integer>
 		</dict>
-		<key>AccessEMR.xcscheme_^#shared#^_</key>
+		<key>appName.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
-		<key>AccessEMRPOC.xcscheme_^#shared#^_</key>
+		<key>appNamePOC.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
-		<key>AccessEMRStaging.xcscheme_^#shared#^_</key>
+		<key>appNameStaging.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>1</integer>

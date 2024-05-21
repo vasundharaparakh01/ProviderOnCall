@@ -1,6 +1,6 @@
 //
 //  ResidentService.swift
-//  AccessEMR
+//  appName
 //
 //  Created by Vasundhara Parakh on 2/25/20.
 //  Copyright © 2020 smartData Enterprises (I) Ltd. All rights reserved.
@@ -19,7 +19,7 @@ public class ResidentService: APIService {
 //        if UserDefaults.getOrganisationType() == OrganisationType.HomeCare || UserDefaults.getOrganisationType() == OrganisationType.Clinic{
 //            param[Key.Params.StaffId_Resident] = "\(AppInstance.shared.user?.id ?? 0)"
 //        }
-        if SharedAccessEMR.sharedInstance.userTypeShared ==  "STAFF"{
+        if SharedappName.sharedInstance.userTypeShared ==  "STAFF"{
                 param[Key.Params.StaffId_Resident] = "\(AppInstance.shared.user?.id ?? 0)"
             }
         super.startService(with: .get, path: APITargetPoint.getResidents, parameters: param, files: []) { (result) in

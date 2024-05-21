@@ -91,7 +91,7 @@ public class PatientBasicHeaderInfo {
         visitStatus = dictionary["visitStatus"] as? Bool
         visitTime = dictionary["visitTime"] as? String
         unitId = dictionary["unitId"] as? Int
-        SharedAccessEMR.sharedInstance.unitIDSymptomTracker = unitId
+        SharedappName.sharedInstance.unitIDSymptomTracker = unitId
 
 	}
 

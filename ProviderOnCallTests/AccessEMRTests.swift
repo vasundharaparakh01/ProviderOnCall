@@ -1,15 +1,15 @@
 //
-//  AccessEMRPOCTests.swift
-//  AccessEMRPOCTests
+//  appNamePOCTests.swift
+//  appNamePOCTests
 //
 //  Created by Amit Shukla on 28/01/20.
 //  Copyright © 2020 smartData Enterprises (I) Ltd. All rights reserved.
 //
 
 import XCTest
-@testable import AccessEMRPOC
+@testable import appNamePOC
 
-class AccessEMRPOCTests: XCTestCase {
+class appNamePOCTests: XCTestCase {
 
     override func setUp() {
         // Put setup code here. This method is called before the invocation of each test method in the class.

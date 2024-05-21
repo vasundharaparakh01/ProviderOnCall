@@ -1,4 +1,4 @@
-${PODS_ROOT}/Target Support Files/Pods-AccessEMR-AccessEMRUITests/Pods-AccessEMR-AccessEMRUITests-frameworks.sh
+${PODS_ROOT}/Target Support Files/Pods-appName-appNameUITests/Pods-appName-appNameUITests-frameworks.sh
 ${BUILT_PRODUCTS_DIR}/Charts/Charts.framework
 ${BUILT_PRODUCTS_DIR}/EasyTipView/EasyTipView.framework
 ${BUILT_PRODUCTS_DIR}/FSCalendar/FSCalendar.framework

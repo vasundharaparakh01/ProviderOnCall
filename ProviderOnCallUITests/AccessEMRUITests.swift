@@ -1,6 +1,6 @@
 //
-//  AccessEMRPOCUITests.swift
-//  AccessEMRPOCUITests
+//  appNamePOCUITests.swift
+//  appNamePOCUITests
 //
 //  Created by Amit Shukla on 28/01/20.
 //  Copyright © 2020 smartData Enterprises (I) Ltd. All rights reserved.
@@ -8,7 +8,7 @@
 
 import XCTest
 
-class AccessEMRPOCUITests: XCTestCase {
+class appNamePOCUITests: XCTestCase {
 
     override func setUp() {
         // Put setup code here. This method is called before the invocation of each test method in the class.

@@ -15,7 +15,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
-        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="RecursiveBPCell" rowHeight="190" id="KGk-i7-Jjw" customClass="RecursiveBPCell" customModule="AccessEMR" customModuleProvider="target">
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="RecursiveBPCell" rowHeight="190" id="KGk-i7-Jjw" customClass="RecursiveBPCell" customModule="appName" customModuleProvider="target">
             <rect key="frame" x="0.0" y="0.0" width="320" height="190"/>
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
             <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
@@ -51,7 +51,7 @@
                             </userDefinedRuntimeAttribute>
                         </userDefinedRuntimeAttributes>
                     </view>
-                    <textField opaque="NO" tag="5000" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="UzY-ef-oq1" customClass="InputTextField" customModule="AccessEMR" customModuleProvider="target">
+                    <textField opaque="NO" tag="5000" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="UzY-ef-oq1" customClass="InputTextField" customModule="appName" customModuleProvider="target">
                         <rect key="frame" x="25" y="50" width="130" height="44"/>
                         <constraints>
                             <constraint firstAttribute="height" constant="44" id="OpD-1i-RCf">
@@ -61,7 +61,7 @@
                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                         <textInputTraits key="textInputTraits"/>
                     </textField>
-                    <textField opaque="NO" tag="6000" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="LyD-Nv-Lrq" customClass="InputTextField" customModule="AccessEMR" customModuleProvider="target">
+                    <textField opaque="NO" tag="6000" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="LyD-Nv-Lrq" customClass="InputTextField" customModule="appName" customModuleProvider="target">
                         <rect key="frame" x="165" y="50" width="130" height="44"/>
                         <constraints>
                             <constraint firstAttribute="height" constant="44" id="N2N-Qj-1Kg">
@@ -71,7 +71,7 @@
                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                         <textInputTraits key="textInputTraits"/>
                     </textField>
-                    <textField opaque="NO" tag="7000" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="WTE-qB-Rzr" customClass="InputTextField" customModule="AccessEMR" customModuleProvider="target">
+                    <textField opaque="NO" tag="7000" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="WTE-qB-Rzr" customClass="InputTextField" customModule="appName" customModuleProvider="target">
                         <rect key="frame" x="25" y="104" width="270" height="44"/>
                         <constraints>
                             <constraint firstAttribute="height" constant="44" id="a3l-hE-i85">

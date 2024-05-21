@@ -1,6 +1,6 @@
 //
 //  ConstantStrings.swift
-//  AccessEMR
+//  appName
 //
 //  Created by Vasundhara Parakh on 2/25/20.
 //  Copyright © 2020 smartData Enterprises (I) Ltd. All rights reserved.
@@ -10,7 +10,7 @@ import Foundation
 //MARK:- Alert
 struct Alert {
     struct Title {
-        static let appName = NSLocalizedString("AccessEMR", comment: "")
+        static let appName = NSLocalizedString("appName", comment: "")
         static let error = NSLocalizedString("Error", comment: "")
         static let logout = NSLocalizedString("Log Out?", comment: "")
         static let tnc = NSLocalizedString("Terms And Conditions", comment: "")

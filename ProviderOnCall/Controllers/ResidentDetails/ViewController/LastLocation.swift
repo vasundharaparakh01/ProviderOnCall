@@ -1,6 +1,6 @@
 //
 //  LastLocation.swift
-//  AccessEMR
+//  appName
 //
 //  Created by Sorabh Gupta on 12/28/20.
 //  Copyright © 2020 smartData Enterprises (I) Ltd. All rights reserved.
@@ -84,7 +84,7 @@ public class DataLastLocation {
     }
     
     required public init?(dictionary: NSDictionary) {
-        SharedAccessEMR.sharedInstance.intMapID = dictionary["id"] as? Int
+        SharedappName.sharedInstance.intMapID = dictionary["id"] as? Int
         id = dictionary["id"] as? Int
         staffID = dictionary["staffID"] as? Int
         appointmentId = dictionary["appointmentId"] as? Int

@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="22505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22504"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <customFonts key="customFonts">
-        <array key="Poppins-Medium.ttf">
+        <array key="poppins_medium.ttf">
             <string>Poppins-Medium</string>
         </array>
     </customFonts>
@@ -16,28 +17,29 @@
         <!--Point Of Care View Controller-->
         <scene sceneID="eC5-oy-fN2">
             <objects>
-                <viewController storyboardIdentifier="PointOfCareViewController" automaticallyAdjustsScrollViewInsets="NO" id="TBg-Zu-EGW" customClass="PointOfCareViewController" customModule="AccessEMR" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="PointOfCareViewController" automaticallyAdjustsScrollViewInsets="NO" id="TBg-Zu-EGW" customClass="PointOfCareViewController" customModule="appName" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="110-VB-l7y">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lr6-Tb-N8w" customClass="ResidentCardView" customModule="AccessEMR" customModuleProvider="target">
-                                <rect key="frame" x="20" y="54" width="374" height="170"/>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lr6-Tb-N8w" customClass="ResidentCardView" customModule="appName" customModuleProvider="target">
+                                <rect key="frame" x="20" y="58" width="374" height="170"/>
                                 <color key="backgroundColor" red="0.74117647060000003" green="0.7843137255" blue="0.95686274510000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="170" id="LZI-1o-27c"/>
                                 </constraints>
                             </view>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="DNj-C6-BtE">
-                                <rect key="frame" x="20" y="239" width="374" height="623"/>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <rect key="frame" x="20" y="243" width="374" height="619"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <connections>
                                     <outlet property="dataSource" destination="TBg-Zu-EGW" id="Lkf-lF-yTk"/>
                                     <outlet property="delegate" destination="TBg-Zu-EGW" id="6E2-DT-aW0"/>
                                 </connections>
                             </tableView>
                         </subviews>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="kt3-39-adf"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="kt3-39-adf" firstAttribute="trailing" secondItem="DNj-C6-BtE" secondAttribute="trailing" constant="20" id="37Q-VH-Evm"/>
                             <constraint firstItem="kt3-39-adf" firstAttribute="bottom" secondItem="DNj-C6-BtE" secondAttribute="bottom" id="FQT-Ng-D0w"/>
@@ -47,7 +49,6 @@
                             <constraint firstItem="lr6-Tb-N8w" firstAttribute="top" secondItem="kt3-39-adf" secondAttribute="top" constant="10" id="nL2-dk-1Bp"/>
                             <constraint firstItem="DNj-C6-BtE" firstAttribute="leading" secondItem="kt3-39-adf" secondAttribute="leading" constant="20" id="pM9-0H-kwT"/>
                         </constraints>
-                        <viewLayoutGuide key="safeArea" id="kt3-39-adf"/>
                     </view>
                     <connections>
                         <outlet property="residentCardView" destination="lr6-Tb-N8w" id="SEo-sa-F1f"/>
@@ -61,28 +62,29 @@
         <!--Tracking View Controller-->
         <scene sceneID="pJ8-tA-ZLK">
             <objects>
-                <viewController storyboardIdentifier="ADLTrackingViewController" automaticallyAdjustsScrollViewInsets="NO" id="0PF-ta-Vcq" customClass="ADLTrackingViewController" customModule="AccessEMR" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="ADLTrackingViewController" automaticallyAdjustsScrollViewInsets="NO" id="0PF-ta-Vcq" customClass="ADLTrackingViewController" customModule="appName" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="wvj-Cb-9yy">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="U3P-ll-3n9" customClass="ResidentCardView" customModule="AccessEMR" customModuleProvider="target">
-                                <rect key="frame" x="20" y="54" width="374" height="170"/>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="U3P-ll-3n9" customClass="ResidentCardView" customModule="appName" customModuleProvider="target">
+                                <rect key="frame" x="20" y="58" width="374" height="170"/>
                                 <color key="backgroundColor" red="0.74117647060000003" green="0.7843137255" blue="0.95686274510000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="170" id="Jbw-mT-FdS"/>
                                 </constraints>
                             </view>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="IeY-z7-1me">
-                                <rect key="frame" x="20" y="239" width="374" height="623"/>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <rect key="frame" x="20" y="243" width="374" height="619"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <connections>
                                     <outlet property="dataSource" destination="0PF-ta-Vcq" id="cQL-p1-LWs"/>
                                     <outlet property="delegate" destination="0PF-ta-Vcq" id="3t2-C9-3Kj"/>
                                 </connections>
                             </tableView>
                         </subviews>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="H7Z-hk-ftB"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="U3P-ll-3n9" firstAttribute="leading" secondItem="H7Z-hk-ftB" secondAttribute="leading" constant="20" id="NgF-fk-r3p"/>
                             <constraint firstItem="H7Z-hk-ftB" firstAttribute="trailing" secondItem="IeY-z7-1me" secondAttribute="trailing" constant="20" id="Rka-H4-6rM"/>
@@ -92,7 +94,6 @@
                             <constraint firstItem="H7Z-hk-ftB" firstAttribute="bottom" secondItem="IeY-z7-1me" secondAttribute="bottom" id="oSt-Ly-FtD"/>
                             <constraint firstItem="H7Z-hk-ftB" firstAttribute="trailing" secondItem="U3P-ll-3n9" secondAttribute="trailing" constant="20" id="sCp-33-qhT"/>
                         </constraints>
-                        <viewLayoutGuide key="safeArea" id="H7Z-hk-ftB"/>
                     </view>
                     <connections>
                         <outlet property="residentCardView" destination="U3P-ll-3n9" id="N26-hu-yBM"/>
@@ -106,21 +107,21 @@
         <!--Nursing Care Flow View Controller-->
         <scene sceneID="eDq-ET-hD2">
             <objects>
-                <viewController storyboardIdentifier="NursingCareFlowViewController" automaticallyAdjustsScrollViewInsets="NO" id="bX4-r6-bui" customClass="NursingCareFlowViewController" customModule="AccessEMR" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="NursingCareFlowViewController" automaticallyAdjustsScrollViewInsets="NO" id="bX4-r6-bui" customClass="NursingCareFlowViewController" customModule="appName" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="OVC-tO-YIu">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vaE-UC-OAe" customClass="ResidentCardView" customModule="AccessEMR" customModuleProvider="target">
-                                <rect key="frame" x="20" y="54" width="374" height="170"/>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vaE-UC-OAe" customClass="ResidentCardView" customModule="appName" customModuleProvider="target">
+                                <rect key="frame" x="20" y="58" width="374" height="170"/>
                                 <color key="backgroundColor" red="0.74117647060000003" green="0.7843137255" blue="0.95686274510000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="170" id="k2m-Jj-myU"/>
                                 </constraints>
                             </view>
                             <view userInteractionEnabled="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="WWG-Nj-ApN" customClass="StepSlider">
-                                <rect key="frame" x="20" y="239" width="374" height="35"/>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <rect key="frame" x="20" y="243" width="374" height="35"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="35" id="Tvu-JJ-ejf"/>
                                 </constraints>
@@ -137,15 +138,16 @@
                                 </userDefinedRuntimeAttributes>
                             </view>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="Q9d-l4-HFB">
-                                <rect key="frame" x="20" y="269" width="374" height="593"/>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <rect key="frame" x="20" y="273" width="374" height="589"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <connections>
                                     <outlet property="dataSource" destination="bX4-r6-bui" id="zzb-ps-uad"/>
                                     <outlet property="delegate" destination="bX4-r6-bui" id="Ihw-hA-yKf"/>
                                 </connections>
                             </tableView>
                         </subviews>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="08y-wp-Ynf"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="WWG-Nj-ApN" firstAttribute="leading" secondItem="08y-wp-Ynf" secondAttribute="leading" constant="20" id="5k5-er-vYu"/>
                             <constraint firstItem="vaE-UC-OAe" firstAttribute="top" secondItem="08y-wp-Ynf" secondAttribute="top" constant="10" id="7KF-ff-Vjx"/>
@@ -158,7 +160,6 @@
                             <constraint firstItem="08y-wp-Ynf" firstAttribute="trailing" secondItem="WWG-Nj-ApN" secondAttribute="trailing" constant="20" id="vFN-nZ-0bG"/>
                             <constraint firstItem="Q9d-l4-HFB" firstAttribute="leading" secondItem="08y-wp-Ynf" secondAttribute="leading" constant="20" id="xBb-lI-ark"/>
                         </constraints>
-                        <viewLayoutGuide key="safeArea" id="08y-wp-Ynf"/>
                     </view>
                     <connections>
                         <outlet property="residentCardView" destination="vaE-UC-OAe" id="I9L-Py-vco"/>
@@ -173,20 +174,20 @@
         <!--Tracking List View Controller-->
         <scene sceneID="Ntj-YB-iUn">
             <objects>
-                <viewController storyboardIdentifier="ADLTrackingListViewController" id="peW-6A-izk" customClass="ADLTrackingListViewController" customModule="AccessEMR" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="ADLTrackingListViewController" id="peW-6A-izk" customClass="ADLTrackingListViewController" customModule="appName" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="lQz-7K-lWM">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="KNQ-U9-HwP" customClass="ResidentCardView" customModule="AccessEMR" customModuleProvider="target">
-                                <rect key="frame" x="20" y="54" width="374" height="170"/>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="KNQ-U9-HwP" customClass="ResidentCardView" customModule="appName" customModuleProvider="target">
+                                <rect key="frame" x="20" y="58" width="374" height="170"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="170" id="ttY-0K-hZn"/>
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="prj-Sl-IO2">
-                                <rect key="frame" x="20" y="234" width="374" height="45"/>
+                                <rect key="frame" x="20" y="238" width="374" height="45"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="GqG-Uw-rbS">
                                         <rect key="frame" x="0.0" y="44" width="374" height="1"/>
@@ -218,7 +219,7 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                 </subviews>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <constraints>
                                     <constraint firstAttribute="bottom" secondItem="GqG-Uw-rbS" secondAttribute="bottom" id="0sV-fl-3qx"/>
                                     <constraint firstItem="aRG-CT-f6I" firstAttribute="leading" secondItem="prj-Sl-IO2" secondAttribute="leading" constant="8" id="5Gr-Ga-LFz"/>
@@ -244,7 +245,7 @@
                                 </userDefinedRuntimeAttributes>
                             </view>
                             <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="e2X-5y-JwT">
-                                <rect key="frame" x="20" y="287" width="374" height="0.0"/>
+                                <rect key="frame" x="20" y="291" width="374" height="0.0"/>
                                 <constraints>
                                     <constraint firstAttribute="height" id="Irh-pp-5Qf"/>
                                 </constraints>
@@ -253,15 +254,16 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="m8a-jw-9Rj">
-                                <rect key="frame" x="20" y="289" width="374" height="563"/>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <rect key="frame" x="20" y="293" width="374" height="559"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <connections>
                                     <outlet property="dataSource" destination="peW-6A-izk" id="Qmc-wv-qqS"/>
                                     <outlet property="delegate" destination="peW-6A-izk" id="u1L-GV-4mB"/>
                                 </connections>
                             </tableView>
                         </subviews>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="wHD-eP-Ihg"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="KNQ-U9-HwP" firstAttribute="leading" secondItem="lQz-7K-lWM" secondAttribute="leading" constant="20" id="1Rj-pH-b38"/>
                             <constraint firstAttribute="trailing" secondItem="KNQ-U9-HwP" secondAttribute="trailing" constant="20" id="8VI-Q7-fvy"/>
@@ -277,7 +279,6 @@
                             <constraint firstItem="wHD-eP-Ihg" firstAttribute="trailing" secondItem="e2X-5y-JwT" secondAttribute="trailing" constant="20" id="yEn-rS-Qdq"/>
                             <constraint firstItem="prj-Sl-IO2" firstAttribute="top" secondItem="KNQ-U9-HwP" secondAttribute="bottom" constant="10" id="yX5-pj-GyZ"/>
                         </constraints>
-                        <viewLayoutGuide key="safeArea" id="wHD-eP-Ihg"/>
                     </view>
                     <connections>
                         <outlet property="lblAddedBy" destination="e2X-5y-JwT" id="XpA-WE-vWc"/>
@@ -294,20 +295,20 @@
         <!--Mood Tracking View Controller-->
         <scene sceneID="BCj-xL-rN7">
             <objects>
-                <viewController storyboardIdentifier="MoodTrackingViewController" id="HeD-nL-mIx" customClass="MoodTrackingViewController" customModule="AccessEMR" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="MoodTrackingViewController" id="HeD-nL-mIx" customClass="MoodTrackingViewController" customModule="appName" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="pU0-cU-fte">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="on9-dU-myU" customClass="ResidentCardView" customModule="AccessEMR" customModuleProvider="target">
-                                <rect key="frame" x="20" y="54" width="374" height="170"/>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="on9-dU-myU" customClass="ResidentCardView" customModule="appName" customModuleProvider="target">
+                                <rect key="frame" x="20" y="58" width="374" height="170"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="170" id="Ozd-15-HK9"/>
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ge6-Ww-GFF">
-                                <rect key="frame" x="20" y="234" width="374" height="45"/>
+                                <rect key="frame" x="20" y="238" width="374" height="45"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ZJD-sH-UVg">
                                         <rect key="frame" x="0.0" y="44" width="374" height="1"/>
@@ -339,7 +340,7 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                 </subviews>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <constraints>
                                     <constraint firstItem="b27-wt-KDS" firstAttribute="leading" secondItem="5qo-WB-ajB" secondAttribute="trailing" constant="10" id="8mR-ks-EVq"/>
                                     <constraint firstAttribute="trailing" secondItem="5qo-WB-ajB" secondAttribute="trailing" constant="150" id="9fo-XL-FHh"/>
@@ -365,7 +366,7 @@
                                 </userDefinedRuntimeAttributes>
                             </view>
                             <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pLE-jd-ZL4">
-                                <rect key="frame" x="20" y="287" width="374" height="0.0"/>
+                                <rect key="frame" x="20" y="291" width="374" height="0.0"/>
                                 <constraints>
                                     <constraint firstAttribute="height" id="IIj-of-sLD"/>
                                 </constraints>
@@ -374,15 +375,16 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="7kl-X0-1Ef">
-                                <rect key="frame" x="20" y="289" width="374" height="563"/>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <rect key="frame" x="20" y="293" width="374" height="559"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <connections>
                                     <outlet property="dataSource" destination="HeD-nL-mIx" id="8dF-HA-p3O"/>
                                     <outlet property="delegate" destination="HeD-nL-mIx" id="nIP-fC-gaQ"/>
                                 </connections>
                             </tableView>
                         </subviews>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="eu4-7l-KAV"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="on9-dU-myU" firstAttribute="leading" secondItem="pU0-cU-fte" secondAttribute="leading" constant="20" id="CJL-sE-qAt"/>
                             <constraint firstItem="eu4-7l-KAV" firstAttribute="bottom" secondItem="7kl-X0-1Ef" secondAttribute="bottom" constant="10" id="KM7-Y4-TAH"/>
@@ -398,7 +400,6 @@
                             <constraint firstItem="7kl-X0-1Ef" firstAttribute="leading" secondItem="pU0-cU-fte" secondAttribute="leading" constant="20" id="rit-7b-llb"/>
                             <constraint firstAttribute="trailing" secondItem="on9-dU-myU" secondAttribute="trailing" constant="20" id="tIp-Iu-bPv"/>
                         </constraints>
-                        <viewLayoutGuide key="safeArea" id="eu4-7l-KAV"/>
                     </view>
                     <connections>
                         <outlet property="lblAddedBy" destination="pLE-jd-ZL4" id="2vD-jM-2Pj"/>
@@ -415,13 +416,13 @@
         <!--List View Controller-->
         <scene sceneID="dOj-c5-0PQ">
             <objects>
-                <viewController storyboardIdentifier="ESASListViewController" id="2Qd-ds-HFe" customClass="ESASListViewController" customModule="AccessEMR" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="ESASListViewController" id="2Qd-ds-HFe" customClass="ESASListViewController" customModule="appName" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="gXA-Ra-keZ">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7M3-bg-5GB" customClass="ResidentCardView" customModule="AccessEMR" customModuleProvider="target">
-                                <rect key="frame" x="20" y="54" width="374" height="170"/>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7M3-bg-5GB" customClass="ResidentCardView" customModule="appName" customModuleProvider="target">
+                                <rect key="frame" x="20" y="58" width="374" height="170"/>
                                 <color key="backgroundColor" red="0.74117647060000003" green="0.7843137255" blue="0.95686274510000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="170" id="2px-jA-aXM"/>
@@ -429,15 +430,16 @@
                                 </constraints>
                             </view>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="030-sY-zj5">
-                                <rect key="frame" x="20" y="239" width="374" height="613"/>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <rect key="frame" x="20" y="243" width="374" height="609"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <connections>
                                     <outlet property="dataSource" destination="2Qd-ds-HFe" id="oGo-90-K8T"/>
                                     <outlet property="delegate" destination="2Qd-ds-HFe" id="4Ww-Iy-pRt"/>
                                 </connections>
                             </tableView>
                         </subviews>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="ks8-gg-KAX"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="ks8-gg-KAX" firstAttribute="trailing" secondItem="7M3-bg-5GB" secondAttribute="trailing" constant="20" id="8Xl-rL-tuY"/>
                             <constraint firstItem="7M3-bg-5GB" firstAttribute="top" secondItem="ks8-gg-KAX" secondAttribute="top" constant="10" id="8yB-Gt-IpQ"/>
@@ -448,7 +450,6 @@
                             <constraint firstItem="030-sY-zj5" firstAttribute="top" secondItem="7M3-bg-5GB" secondAttribute="bottom" constant="15" id="jpb-ct-CIb"/>
                             <constraint firstItem="7M3-bg-5GB" firstAttribute="leading" secondItem="ks8-gg-KAX" secondAttribute="leading" constant="20" id="mco-uf-6Hl"/>
                         </constraints>
-                        <viewLayoutGuide key="safeArea" id="ks8-gg-KAX"/>
                     </view>
                     <connections>
                         <outlet property="residentCardView" destination="7M3-bg-5GB" id="Wx9-i1-gIp"/>
@@ -462,13 +463,13 @@
         <!--Input Out Put ChartVC-->
         <scene sceneID="WF8-cc-0Ov">
             <objects>
-                <viewController storyboardIdentifier="InputOutPutChartVC" id="cwZ-UI-J9e" customClass="InputOutPutChartVC" customModule="AccessEMR" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="InputOutPutChartVC" id="cwZ-UI-J9e" customClass="InputOutPutChartVC" customModule="appName" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="msc-Eo-WxS">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" bounces="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" bouncesZoom="NO" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="Pbv-nR-aSZ">
-                                <rect key="frame" x="0.0" y="98" width="414" height="798"/>
+                                <rect key="frame" x="0.0" y="102" width="414" height="794"/>
                                 <connections>
                                     <outlet property="dataSource" destination="cwZ-UI-J9e" id="Aak-HR-4UL"/>
                                     <outlet property="delegate" destination="cwZ-UI-J9e" id="atg-xk-RL0"/>
@@ -481,7 +482,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dzX-zA-k2L">
-                                <rect key="frame" x="0.0" y="44" width="414" height="50"/>
+                                <rect key="frame" x="0.0" y="48" width="414" height="50"/>
                                 <subviews>
                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="oAK-dw-AqP">
                                         <rect key="frame" x="204.5" y="13.5" width="5" height="23"/>
@@ -489,7 +490,7 @@
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
                                 </subviews>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <constraints>
                                     <constraint firstItem="oAK-dw-AqP" firstAttribute="centerY" secondItem="dzX-zA-k2L" secondAttribute="centerY" id="1vv-gD-SOh"/>
                                     <constraint firstAttribute="height" constant="50" id="BKf-Fq-YL1"/>
@@ -497,7 +498,8 @@
                                 </constraints>
                             </view>
                         </subviews>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="dfe-ND-PoI"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstAttribute="bottom" secondItem="Pbv-nR-aSZ" secondAttribute="bottom" id="A7O-8Y-ENH"/>
                             <constraint firstItem="dzX-zA-k2L" firstAttribute="leading" secondItem="dfe-ND-PoI" secondAttribute="leading" id="GD4-xN-W5C"/>
@@ -509,7 +511,6 @@
                             <constraint firstItem="R3y-xx-zXf" firstAttribute="centerX" secondItem="msc-Eo-WxS" secondAttribute="centerX" id="ira-nr-q8w"/>
                             <constraint firstItem="Pbv-nR-aSZ" firstAttribute="top" secondItem="dzX-zA-k2L" secondAttribute="bottom" constant="4" id="rwm-ba-gJO"/>
                         </constraints>
-                        <viewLayoutGuide key="safeArea" id="dfe-ND-PoI"/>
                     </view>
                     <connections>
                         <outlet property="lblRecordNotFound" destination="R3y-xx-zXf" id="E4W-7K-dd3"/>
@@ -524,7 +525,7 @@
         <!--Trend GraphVC-->
         <scene sceneID="Qx5-HL-15D">
             <objects>
-                <viewController storyboardIdentifier="TrendGraphVC" id="vgy-8z-9ZP" customClass="TrendGraphVC" customModule="AccessEMR" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="TrendGraphVC" id="vgy-8z-9ZP" customClass="TrendGraphVC" customModule="appName" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="22G-Fm-jGk">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -536,15 +537,15 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" bounces="NO" pagingEnabled="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" bouncesZoom="NO" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="dLH-qq-8UX">
-                                <rect key="frame" x="0.0" y="152" width="414" height="710"/>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <rect key="frame" x="0.0" y="156" width="414" height="706"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <connections>
                                     <outlet property="dataSource" destination="vgy-8z-9ZP" id="0gH-6O-LAM"/>
                                     <outlet property="delegate" destination="vgy-8z-9ZP" id="iVJ-IR-WKR"/>
                                 </connections>
                             </tableView>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5XT-rc-f8M">
-                                <rect key="frame" x="0.0" y="44" width="414" height="100"/>
+                                <rect key="frame" x="0.0" y="48" width="414" height="100"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cmo-Va-EU8">
                                         <rect key="frame" x="0.0" y="0.0" width="207" height="100"/>
@@ -578,7 +579,7 @@
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FDe-nB-ZQF">
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FDe-nB-ZQF">
                                                 <rect key="frame" x="103" y="70" width="100" height="30"/>
                                                 <color key="backgroundColor" red="0.0039215686269999999" green="0.2666666667" blue="0.37254901959999998" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
                                                 <constraints>
@@ -638,7 +639,7 @@
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hQG-Xf-gFh">
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hQG-Xf-gFh">
                                                 <rect key="frame" x="4" y="70" width="100" height="30"/>
                                                 <color key="backgroundColor" red="0.0039215686269999999" green="0.2666666667" blue="0.37254901959999998" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
                                                 <constraints>
@@ -682,7 +683,8 @@
                                 </constraints>
                             </view>
                         </subviews>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="55L-h5-T4u"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="dLH-qq-8UX" firstAttribute="leading" secondItem="55L-h5-T4u" secondAttribute="leading" id="8bN-gR-eEy"/>
                             <constraint firstItem="dLH-qq-8UX" firstAttribute="top" secondItem="5XT-rc-f8M" secondAttribute="bottom" constant="8" id="FMi-xo-sel"/>
@@ -694,7 +696,6 @@
                             <constraint firstItem="24h-Tp-V7N" firstAttribute="centerY" secondItem="22G-Fm-jGk" secondAttribute="centerY" id="gkw-Sa-xUx"/>
                             <constraint firstItem="5XT-rc-f8M" firstAttribute="top" secondItem="55L-h5-T4u" secondAttribute="top" id="tdJ-WH-fqJ"/>
                         </constraints>
-                        <viewLayoutGuide key="safeArea" id="55L-h5-T4u"/>
                     </view>
                     <connections>
                         <outlet property="heightConstarints" destination="fhP-MG-E1G" id="UPZ-Te-ghW"/>
@@ -708,7 +709,15 @@
             <point key="canvasLocation" x="1446.376811594203" y="689.73214285714278"/>
         </scene>
     </scenes>
+    <designables>
+        <designable name="WWG-Nj-ApN">
+            <size key="intrinsicContentSize" width="374" height="44"/>
+        </designable>
+    </designables>
     <resources>
         <image name="calendar" width="19.5" height="20"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
     </resources>
 </document>

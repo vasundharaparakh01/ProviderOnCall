@@ -16,12 +16,12 @@
         <!--Assessment View Controller-->
         <scene sceneID="fY5-ni-OlA">
             <objects>
-                <viewController storyboardIdentifier="AssessmentViewController" id="LCG-85-Ttt" customClass="AssessmentViewController" customModule="AccessEMR" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="AssessmentViewController" id="LCG-85-Ttt" customClass="AssessmentViewController" customModule="appName" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="5HA-Gc-Tab">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Gcg-vR-PF4" customClass="ResidentCardView" customModule="AccessEMR" customModuleProvider="target">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Gcg-vR-PF4" customClass="ResidentCardView" customModule="appName" customModuleProvider="target">
                                 <rect key="frame" x="20" y="54" width="374" height="170"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                 <constraints>
@@ -61,7 +61,7 @@
         <!--Fall Assessment View Controller-->
         <scene sceneID="d6U-P1-Lwh">
             <objects>
-                <viewController storyboardIdentifier="FallAssessmentViewController" id="cJN-6R-ziF" customClass="FallAssessmentViewController" customModule="AccessEMR" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="FallAssessmentViewController" id="cJN-6R-ziF" customClass="FallAssessmentViewController" customModule="appName" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="nJy-6r-zjn">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -73,7 +73,7 @@
                                     <outlet property="delegate" destination="cJN-6R-ziF" id="zMD-z8-aLG"/>
                                 </connections>
                             </tableView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="53F-M0-ZIW" customClass="ActionButton" customModule="AccessEMR" customModuleProvider="target">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="53F-M0-ZIW" customClass="ActionButton" customModule="appName" customModuleProvider="target">
                                 <rect key="frame" x="127" y="826" width="160" height="50"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>

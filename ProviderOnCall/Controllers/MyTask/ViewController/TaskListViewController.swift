@@ -1,6 +1,6 @@
 //
 //  TaskListViewController.swift
-//  AccessEMR
+//  appName
 //
 //  Created by Vasundhara Parakh on 3/5/20.
 //  Copyright © 2020 smartData Enterprises (I) Ltd. All rights reserved.
@@ -350,7 +350,7 @@ extension TaskListViewController : CustomAlertViewDelegate{
             vc.patientId = task.patientID ?? 0
             vc.selectedTask = task
             vc.checkReportType = 2
-            SharedAccessEMR.sharedInstance.isCommingToCreatTar = "TaskListViewController"
+            SharedappName.sharedInstance.isCommingToCreatTar = "TaskListViewController"
             self.navigationController?.pushViewController(vc,animated:false)
 
             /*

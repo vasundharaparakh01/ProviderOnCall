@@ -23,7 +23,7 @@
         <!--List View Controller-->
         <scene sceneID="geq-P2-CPM">
             <objects>
-                <viewController storyboardIdentifier="EMARListViewController" id="id4-gd-yDI" customClass="EMARListViewController" customModule="AccessEMR" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="EMARListViewController" id="id4-gd-yDI" customClass="EMARListViewController" customModule="appName" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="alk-4R-nsT">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -31,7 +31,7 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="iBw-9z-2Fz">
                                 <rect key="frame" x="0.0" y="44" width="414" height="65"/>
                                 <subviews>
-                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="dLb-WO-NyI" customClass="InputTextField" customModule="AccessEMR" customModuleProvider="target">
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="dLb-WO-NyI" customClass="InputTextField" customModule="appName" customModuleProvider="target">
                                         <rect key="frame" x="15" y="5" width="279" height="55"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits"/>
@@ -70,7 +70,7 @@
                                 <rect key="frame" x="20" y="117" width="374" height="745"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="EMARListCell" id="WzA-Pp-j5x" customClass="EMARListCell" customModule="AccessEMR" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="EMARListCell" id="WzA-Pp-j5x" customClass="EMARListCell" customModule="appName" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="374" height="99.5"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="WzA-Pp-j5x" id="j67-9A-RHH">
@@ -199,7 +199,7 @@
         <!--Prescription List View Controller-->
         <scene sceneID="Cbi-y6-eon">
             <objects>
-                <viewController storyboardIdentifier="PrescriptionListViewController" automaticallyAdjustsScrollViewInsets="NO" id="oml-Mz-5Hr" customClass="PrescriptionListViewController" customModule="AccessEMR" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="PrescriptionListViewController" automaticallyAdjustsScrollViewInsets="NO" id="oml-Mz-5Hr" customClass="PrescriptionListViewController" customModule="appName" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="gi5-GZ-vUv">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -246,7 +246,7 @@
                                     <constraint firstItem="s4d-og-kym" firstAttribute="leading" secondItem="CZs-Km-spf" secondAttribute="leading" constant="10" id="w4E-aH-hoo"/>
                                 </constraints>
                             </view>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Zvb-E8-9iO" customClass="ResidentCardView" customModule="AccessEMR" customModuleProvider="target">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Zvb-E8-9iO" customClass="ResidentCardView" customModule="appName" customModuleProvider="target">
                                 <rect key="frame" x="20" y="104" width="374" height="170"/>
                                 <color key="backgroundColor" red="0.74117647060000003" green="0.7843137255" blue="0.95686274510000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
@@ -257,7 +257,7 @@
                                 <rect key="frame" x="20" y="289" width="374" height="563"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="PrescriptionCell" rowHeight="104" id="WPM-eG-bQ5" customClass="PrescriptionCell" customModule="AccessEMR" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="PrescriptionCell" rowHeight="104" id="WPM-eG-bQ5" customClass="PrescriptionCell" customModule="appName" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="374" height="104"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="WPM-eG-bQ5" id="gQT-hh-OVC">
@@ -336,7 +336,7 @@
         <!--Medication Popup View Controller-->
         <scene sceneID="STX-3k-VeE">
             <objects>
-                <viewController storyboardIdentifier="MedicationPopupViewController" id="Xve-nn-Hcb" customClass="MedicationPopupViewController" customModule="AccessEMR" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="MedicationPopupViewController" id="Xve-nn-Hcb" customClass="MedicationPopupViewController" customModule="appName" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="2AN-Vd-RRb">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -651,12 +651,12 @@
         <!--Medication View Controller-->
         <scene sceneID="Kcm-N1-lMj">
             <objects>
-                <viewController storyboardIdentifier="EMARMedicationViewController" automaticallyAdjustsScrollViewInsets="NO" id="dq0-r5-2Md" customClass="EMARMedicationViewController" customModule="AccessEMR" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="EMARMedicationViewController" automaticallyAdjustsScrollViewInsets="NO" id="dq0-r5-2Md" customClass="EMARMedicationViewController" customModule="appName" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="dz5-og-i7h">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="LWE-c5-iqv" customClass="ResidentCardView" customModule="AccessEMR" customModuleProvider="target">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="LWE-c5-iqv" customClass="ResidentCardView" customModule="appName" customModuleProvider="target">
                                 <rect key="frame" x="20" y="54" width="374" height="170"/>
                                 <color key="backgroundColor" red="0.74117647060000003" green="0.7843137255" blue="0.95686274510000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
@@ -744,7 +744,7 @@
                                         </constraints>
                                         <state key="normal" image="calendarTime"/>
                                     </button>
-                                    <textField opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="a8e-XC-UCX" customClass="InputTextField" customModule="AccessEMR" customModuleProvider="target">
+                                    <textField opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="a8e-XC-UCX" customClass="InputTextField" customModule="appName" customModuleProvider="target">
                                         <rect key="frame" x="334" y="10" width="25" height="25"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits"/>
@@ -775,7 +775,7 @@
                                 <rect key="frame" x="20" y="424" width="374" height="428"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="EMARMedicationCell" id="A96-bc-7hz" customClass="EMARMedicationCell" customModule="AccessEMR" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="EMARMedicationCell" id="A96-bc-7hz" customClass="EMARMedicationCell" customModule="appName" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="374" height="194.5"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="A96-bc-7hz" id="CHT-aK-7cU">
@@ -994,7 +994,7 @@
         <!--Edit View Controller-->
         <scene sceneID="g2U-Q4-Rjq">
             <objects>
-                <viewController storyboardIdentifier="EMAREditViewController" automaticallyAdjustsScrollViewInsets="NO" id="En1-v2-8RC" customClass="EMAREditViewController" customModule="AccessEMR" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="EMAREditViewController" automaticallyAdjustsScrollViewInsets="NO" id="En1-v2-8RC" customClass="EMAREditViewController" customModule="appName" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="QqM-yK-0tj">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1110,7 +1110,7 @@
         <!--View Prescription View Controller-->
         <scene sceneID="0Ii-pU-gxk">
             <objects>
-                <viewController storyboardIdentifier="ViewPrescriptionViewController" automaticallyAdjustsScrollViewInsets="NO" id="pLV-Ad-V9r" customClass="ViewPrescriptionViewController" customModule="AccessEMR" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="ViewPrescriptionViewController" automaticallyAdjustsScrollViewInsets="NO" id="pLV-Ad-V9r" customClass="ViewPrescriptionViewController" customModule="appName" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Bb8-tv-Yyn">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

@@ -1,6 +1,6 @@
 //
 //  Constants.swift
-//  AccessEMR
+//  appName
 //
 //  Created by Vasundhara Parakh on 2/25/20.
 //  Copyright © 2020 smartData Enterprises (I) Ltd. All rights reserved.
@@ -24,24 +24,15 @@ enum Config {
 
     // STAGING
     #if STAGING
-    static let BASE_URL:String = "https://www.stagingwin.com:9522/"
-    static let resetPassword_URL = "https://www.stagingwin.com/"
+    static let BASE_URL:String = "https://"
+    static let resetPassword_URL = "https://"
     #else
-    static let BASE_URL:String = "https://www.stagingwin.com:9522/"
-    static let resetPassword_URL = "https://www.stagingwin.com/"
+    static let BASE_URL:String = "https://"
+    static let resetPassword_URL = "https://"
     #endif
 //
     
-    // Production
-//    #if STAGING
-//    static let BASE_URL:String = "https://accessehealth.com:8080/"
-//    static let resetPassword_URL = "https://accessehealth.com/"
-//    #else
-//    static let BASE_URL:String = "https://accessehealth.com:8080/"
-//    static let resetPassword_URL = "https://accessehealth.com/"
-//    #endif
-//"https://accessehealth.com/hc_patient_merging/web/reset-password"
-}
+   
 
 //MARK:- APITargetPoint
 enum APITargetPoint{

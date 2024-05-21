@@ -1,6 +1,6 @@
 //
 //  DirectionMapViewModel.swift
-//  AccessEMR
+//  appName
 //
 //  Created by Vasundhara Mehta on 13/08/20.
 //  Copyright © 2020 smartData Enterprises (I) Ltd. All rights reserved.
@@ -32,11 +32,11 @@ class DirectionMapViewModel: BaseViewModel {
         let visitDate = Utility.getStringFromDate(date: Date(), dateFormat: "YYYY-MM-dd" + " " + "HH:mm:ss").replacingOccurrences(of: " ", with: "T") + ".000Z"
          var params = [String : Any]()
         if checkinStatus == false{
-            if SharedAccessEMR.sharedInstance.intMapID ?? -1 > 0{
+            if SharedappName.sharedInstance.intMapID ?? -1 > 0{
                 params = ["PatientId": "\(patientId)",
                     "VisitStatus":checkinStatus,
                     "VisitDate": visitDate,
-                    "mapId": SharedAccessEMR.sharedInstance.intMapID ?? 0]
+                    "mapId": SharedappName.sharedInstance.intMapID ?? 0]
             }else{
                 params = ["PatientId": "\(patientId)",
                     "VisitStatus":checkinStatus,
@@ -47,7 +47,7 @@ class DirectionMapViewModel: BaseViewModel {
            params = ["PatientId": "\(patientId)",
             "VisitStatus":checkinStatus,
             "VisitDate": visitDate,
-            "mapId": SharedAccessEMR.sharedInstance.intMapID ?? 0]
+            "mapId": SharedappName.sharedInstance.intMapID ?? 0]
         }
         
         service.patientCheckIn(with: params) { (result) in
@@ -114,10 +114,10 @@ class DirectionMapViewModel: BaseViewModel {
             let coordinate₁ = CLLocation(latitude: latitude, longitude: longitude)
             let distanceInMeters = coordinate₀.distance(from: coordinate₁)/1609
             print(distanceInMeters)
-            if SharedAccessEMR.sharedInstance.coordiNat == coordinate₁{
+            if SharedappName.sharedInstance.coordiNat == coordinate₁{
                 mileageH = Float(id)
             }else{
-               SharedAccessEMR.sharedInstance.coordiNat = coordinate₁
+               SharedappName.sharedInstance.coordiNat = coordinate₁
                 id =  id + Double(Float(distanceInMeters))
                 mileageH = Float(id)
             }

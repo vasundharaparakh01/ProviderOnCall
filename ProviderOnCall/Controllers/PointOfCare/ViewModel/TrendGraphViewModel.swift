@@ -1,6 +1,6 @@
 //
 //  TrendGraphViewModel.swift
-//  AccessEMR
+//  appName
 //
 //  Created by Sorabh Gupta on 12/18/20.
 //  Copyright © 2020 smartData Enterprises (I) Ltd. All rights reserved.

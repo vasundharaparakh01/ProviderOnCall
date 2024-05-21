@@ -16,7 +16,7 @@
         </array>
     </customFonts>
     <objects>
-        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ResidentCardView" customModule="AccessEMR" customModuleProvider="target">
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ResidentCardView" customModule="appName" customModuleProvider="target">
             <connections>
                 <outlet property="ageLbl" destination="yLb-cM-BNf" id="Wnb-7q-hmm"/>
                 <outlet property="contentView" destination="iN0-l3-epB" id="Jvu-a7-2hu"/>

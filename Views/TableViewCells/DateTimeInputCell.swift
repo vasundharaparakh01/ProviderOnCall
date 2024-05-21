@@ -1,6 +1,6 @@
 //
 //  DateTimeInputCell.swift
-//  AccessEMR
+//  appName
 //
 //  Created by Vasundhara Parakh on 2/19/20.
 //  Copyright © 2020 smartData Enterprises (I) Ltd. All rights reserved.

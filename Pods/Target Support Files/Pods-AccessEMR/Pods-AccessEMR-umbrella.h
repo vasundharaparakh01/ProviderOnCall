@@ -11,6 +11,6 @@
 #endif
 
 
-FOUNDATION_EXPORT double Pods_AccessEMRVersionNumber;
-FOUNDATION_EXPORT const unsigned char Pods_AccessEMRVersionString[];
+FOUNDATION_EXPORT double Pods_appNameVersionNumber;
+FOUNDATION_EXPORT const unsigned char Pods_appNameVersionString[];
 

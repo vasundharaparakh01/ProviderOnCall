@@ -1,6 +1,6 @@
 //
 //  TaskList.swift
-//  AccessEMR
+//  appName
 //
 //  Created by Vasundhara Parakh on 3/5/20.
 //  Copyright © 2020 smartData Enterprises (I) Ltd. All rights reserved.

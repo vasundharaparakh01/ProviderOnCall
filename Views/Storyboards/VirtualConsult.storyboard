@@ -26,7 +26,7 @@
         <!--Video Appointment List View Controller-->
         <scene sceneID="fTy-w0-UIg">
             <objects>
-                <viewController storyboardIdentifier="VideoAppointmentListViewController" automaticallyAdjustsScrollViewInsets="NO" id="5Bh-RP-55N" customClass="VideoAppointmentListViewController" customModule="AccessEMR" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="VideoAppointmentListViewController" automaticallyAdjustsScrollViewInsets="NO" id="5Bh-RP-55N" customClass="VideoAppointmentListViewController" customModule="appName" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="rLG-qt-4Gm">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -35,7 +35,7 @@
                                 <rect key="frame" x="19" y="54" width="376" height="799"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="AppointmentCell" rowHeight="170" id="HeT-oq-0D2" customClass="AppointmentCell" customModule="AccessEMR" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="AppointmentCell" rowHeight="170" id="HeT-oq-0D2" customClass="AppointmentCell" customModule="appName" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="376" height="170"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="HeT-oq-0D2" id="GVd-e6-MkZ">
@@ -246,7 +246,7 @@
         <!--Add Document View Controller-->
         <scene sceneID="4c9-gp-X3H">
             <objects>
-                <viewController storyboardIdentifier="AddDocumentViewController" id="vsM-iy-2nW" customClass="AddDocumentViewController" customModule="AccessEMR" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="AddDocumentViewController" id="vsM-iy-2nW" customClass="AddDocumentViewController" customModule="appName" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Hu3-nn-lrH">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -254,7 +254,7 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="DHB-qU-IjY">
                                 <rect key="frame" x="41.5" y="139.5" width="331" height="627"/>
                                 <subviews>
-                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Document Name (optional)" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="H2Q-ri-uqL" customClass="InputTextField" customModule="AccessEMR" customModuleProvider="target">
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Document Name (optional)" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="H2Q-ri-uqL" customClass="InputTextField" customModule="appName" customModuleProvider="target">
                                         <rect key="frame" x="15" y="30" width="301" height="44"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="44" id="97N-yJ-ig3"/>
@@ -322,7 +322,7 @@
                                         <rect key="frame" x="10" y="225" width="311" height="382"/>
                                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                         <prototypes>
-                                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="SharedDocumentCell" rowHeight="100" id="5W2-Vl-az4" customClass="SharedDocumentCell" customModule="AccessEMR" customModuleProvider="target">
+                                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="SharedDocumentCell" rowHeight="100" id="5W2-Vl-az4" customClass="SharedDocumentCell" customModule="appName" customModuleProvider="target">
                                                 <rect key="frame" x="0.0" y="28" width="311" height="100"/>
                                                 <autoresizingMask key="autoresizingMask"/>
                                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="5W2-Vl-az4" id="lkc-LN-q65">
@@ -516,7 +516,7 @@
         <!--Video Conferencing View Controller-->
         <scene sceneID="VTH-G7-kVW">
             <objects>
-                <viewController storyboardIdentifier="VideoConferencingViewController" id="5WF-qZ-gcG" customClass="VideoConferencingViewController" customModule="AccessEMR" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="VideoConferencingViewController" id="5WF-qZ-gcG" customClass="VideoConferencingViewController" customModule="appName" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="3jE-EB-C4R"/>
                         <viewControllerLayoutGuide type="bottom" id="5st-jk-5gW"/>
@@ -651,7 +651,7 @@
                                     <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                                 </collectionViewFlowLayout>
                                 <cells>
-                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="subscriberCell" id="Vv4-Yn-ap2" customClass="SubscriberCollectionCell" customModule="AccessEMR" customModuleProvider="target">
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="subscriberCell" id="Vv4-Yn-ap2" customClass="SubscriberCollectionCell" customModule="appName" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="0.0" width="160" height="250"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
@@ -739,7 +739,7 @@
                                                     </userDefinedRuntimeAttribute>
                                                 </userDefinedRuntimeAttributes>
                                             </view>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="n6S-cA-Gz6" customClass="CustomButton" customModule="AccessEMR" customModuleProvider="target">
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="n6S-cA-Gz6" customClass="CustomButton" customModule="appName" customModuleProvider="target">
                                                 <rect key="frame" x="95" y="398" width="100" height="30"/>
                                                 <color key="backgroundColor" red="0.81176470590000005" green="0.090196078430000007" blue="0.1215686275" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <constraints>
@@ -878,12 +878,12 @@
         <!--Incoming Call View Controller-->
         <scene sceneID="ZrQ-b1-QAO">
             <objects>
-                <viewController storyboardIdentifier="IncomingCallViewController" id="ziD-RH-x3x" customClass="IncomingCallViewController" customModule="AccessEMR" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="IncomingCallViewController" id="ziD-RH-x3x" customClass="IncomingCallViewController" customModule="appName" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="y0P-yi-f71">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qJi-Xo-ChY" customClass="GradientView" customModule="AccessEMR" customModuleProvider="target">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qJi-Xo-ChY" customClass="GradientView" customModule="appName" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                                 <subviews>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="navigationBg" translatesAutoresizingMaskIntoConstraints="NO" id="Zur-sm-m4x">
@@ -1040,7 +1040,7 @@
         <!--Chat View Controller-->
         <scene sceneID="Jve-RR-0R3">
             <objects>
-                <viewController storyboardIdentifier="ChatViewController" id="KdM-QP-VK9" customClass="ChatViewController" customModule="AccessEMR" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="ChatViewController" id="KdM-QP-VK9" customClass="ChatViewController" customModule="appName" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="27l-R9-MwE">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1049,7 +1049,7 @@
                                 <rect key="frame" x="0.0" y="44" width="414" height="748"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="MessageSenderCell" rowHeight="89" id="RIh-HE-Qbj" customClass="MessageSenderCell" customModule="AccessEMR" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="MessageSenderCell" rowHeight="89" id="RIh-HE-Qbj" customClass="MessageSenderCell" customModule="appName" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="414" height="89"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="RIh-HE-Qbj" id="Qil-ve-qOl">
@@ -1109,7 +1109,7 @@
                                             <outlet property="viewForMessage" destination="dKy-9b-eGq" id="6Ez-br-R6g"/>
                                         </connections>
                                     </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="MessageReceiverCell" rowHeight="127" id="V2b-Fa-FWJ" customClass="MessageReceiverCell" customModule="AccessEMR" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="MessageReceiverCell" rowHeight="127" id="V2b-Fa-FWJ" customClass="MessageReceiverCell" customModule="appName" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="117" width="414" height="127"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="V2b-Fa-FWJ" id="hAB-Ex-Dc5">
@@ -1235,7 +1235,7 @@
                                             <action selector="actionForMessageSend:" destination="KdM-QP-VK9" eventType="touchUpInside" id="b3x-YE-JUj"/>
                                         </connections>
                                     </button>
-                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kaF-Pe-SJG" customClass="SBMessageInputView" customModule="AccessEMR" customModuleProvider="target">
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kaF-Pe-SJG" customClass="SBMessageInputView" customModule="appName" customModuleProvider="target">
                                         <rect key="frame" x="5" y="5" width="342" height="60"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <constraints>
@@ -1310,7 +1310,7 @@
         <!--Preview Document View Controller-->
         <scene sceneID="NaV-8J-3VK">
             <objects>
-                <viewController storyboardIdentifier="PreviewDocumentViewController" id="CBy-ZF-vpT" customClass="PreviewDocumentViewController" customModule="AccessEMR" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="PreviewDocumentViewController" id="CBy-ZF-vpT" customClass="PreviewDocumentViewController" customModule="appName" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ZJX-6E-f4i">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1388,7 +1388,7 @@
         <!--Schedule View Controller-->
         <scene sceneID="1av-nP-diH">
             <objects>
-                <viewController storyboardIdentifier="ScheduleViewController" id="f5Q-Lt-NP4" customClass="ScheduleViewController" customModule="AccessEMR" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="ScheduleViewController" id="f5Q-Lt-NP4" customClass="ScheduleViewController" customModule="appName" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="fLr-g3-Dus">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1454,7 +1454,7 @@
                                 <rect key="frame" x="15" y="205" width="384" height="657"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="ScheduleAppointmentCell" rowHeight="200" id="QdW-aF-csR" customClass="ScheduleAppointmentCell" customModule="AccessEMR" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="ScheduleAppointmentCell" rowHeight="200" id="QdW-aF-csR" customClass="ScheduleAppointmentCell" customModule="appName" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="384" height="200"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="QdW-aF-csR" id="pci-9L-sIH">
@@ -1692,7 +1692,7 @@
         <!--Add Schedule View Controller-->
         <scene sceneID="KTv-Yd-3hf">
             <objects>
-                <viewController storyboardIdentifier="AddScheduleViewController" id="RVR-Uf-hQF" customClass="AddScheduleViewController" customModule="AccessEMR" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="AddScheduleViewController" id="RVR-Uf-hQF" customClass="AddScheduleViewController" customModule="appName" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="oiW-aa-Kf3">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1748,7 +1748,7 @@
                                                     <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                                                 </collectionViewFlowLayout>
                                                 <cells>
-                                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="AppointmentSlotCell" id="XzQ-8c-xB6" customClass="AppointmentSlotCell" customModule="AccessEMR" customModuleProvider="target">
+                                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="AppointmentSlotCell" id="XzQ-8c-xB6" customClass="AppointmentSlotCell" customModule="appName" customModuleProvider="target">
                                                         <rect key="frame" x="85" y="0.0" width="174" height="45"/>
                                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                         <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="JYM-JL-NWF">
@@ -2016,7 +2016,7 @@
         <!--Staff Calendar View Controller-->
         <scene sceneID="YeL-hO-kUO">
             <objects>
-                <viewController storyboardIdentifier="StaffCalendarViewController" id="qk3-8O-eX9" customClass="StaffCalendarViewController" customModule="AccessEMR" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="StaffCalendarViewController" id="qk3-8O-eX9" customClass="StaffCalendarViewController" customModule="appName" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Xcs-Mg-CuH">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -2110,7 +2110,7 @@
                                 <rect key="frame" x="15" y="345" width="384" height="541"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="DayCalendarCell" rowHeight="60" id="uQp-Yu-aSi" customClass="DayCalendarCell" customModule="AccessEMR" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="DayCalendarCell" rowHeight="60" id="uQp-Yu-aSi" customClass="DayCalendarCell" customModule="appName" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="384" height="60"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="uQp-Yu-aSi" id="KXM-90-BKs">
@@ -2235,7 +2235,7 @@
                                             <constraint firstAttribute="height" constant="400" id="SGY-Dp-tV8"/>
                                         </constraints>
                                         <prototypes>
-                                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="ScheduleAppointmentCell" id="aS3-UN-NZq" customClass="ScheduleAppointmentCell" customModule="AccessEMR" customModuleProvider="target">
+                                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="ScheduleAppointmentCell" id="aS3-UN-NZq" customClass="ScheduleAppointmentCell" customModule="appName" customModuleProvider="target">
                                                 <rect key="frame" x="0.0" y="28" width="374" height="71.5"/>
                                                 <autoresizingMask key="autoresizingMask"/>
                                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="aS3-UN-NZq" id="foB-sc-R2X">
@@ -2393,12 +2393,12 @@
         <!--Availability View Controller-->
         <scene sceneID="Mae-yx-hV3">
             <objects>
-                <viewController storyboardIdentifier="AvailabilityViewController" id="dWm-47-Od2" customClass="AvailabilityViewController" customModule="AccessEMR" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="AvailabilityViewController" id="dWm-47-Od2" customClass="AvailabilityViewController" customModule="appName" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="XeA-kF-KHV">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="aoM-vW-wKM" customClass="InputTextField" customModule="AccessEMR" customModuleProvider="target">
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="aoM-vW-wKM" customClass="InputTextField" customModule="appName" customModuleProvider="target">
                                 <rect key="frame" x="212" y="44" width="187" height="50"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="50" id="PxC-CY-NYH"/>
@@ -2412,7 +2412,7 @@
                                     <outlet property="delegate" destination="dWm-47-Od2" id="Hfh-dX-5pZ"/>
                                 </connections>
                             </textField>
-                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="drB-F3-RHj" customClass="InputTextField" customModule="AccessEMR" customModuleProvider="target">
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="drB-F3-RHj" customClass="InputTextField" customModule="appName" customModuleProvider="target">
                                 <rect key="frame" x="15" y="44" width="187" height="50"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="50" id="QqI-Jq-kc8"/>
@@ -2543,7 +2543,7 @@
         <!--Set Availability View Controller-->
         <scene sceneID="A22-l1-d6F">
             <objects>
-                <viewController storyboardIdentifier="SetAvailabilityViewController" id="2Ix-3h-mSi" customClass="SetAvailabilityViewController" customModule="AccessEMR" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="SetAvailabilityViewController" id="2Ix-3h-mSi" customClass="SetAvailabilityViewController" customModule="appName" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="md3-y7-6P1">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

@@ -1,6 +1,6 @@
 //
 //  BaseViewModel.swift
-//  AccessEMRPOC
+//  appNamePOC
 //
 //  Created by Amit Shukla on 28/01/20.
 //  Copyright © 2020 smartData Enterprises (I) Ltd. All rights reserved.

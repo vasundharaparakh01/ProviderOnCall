@@ -1,6 +1,6 @@
 //
 //  NursingCareFormViewController.swift
-//  AccessEMR
+//  appName
 //
 //  Created by Vasundhara Parakh on 3/16/20.
 //  Copyright © 2020 smartData Enterprises (I) Ltd. All rights reserved.
@@ -60,7 +60,7 @@ class NursingCareFormViewController: BaseViewController {
         case NursingSections.Safety.rawValue:
             idToUpdate = self.viewModel.safetySecurityDetail?.id ?? 0
             apiName = APITargetPoint.save_NCF_Safety
-            SharedAccessEMR.sharedInstance.patientActiveStatus = ""
+            SharedappName.sharedInstance.patientActiveStatus = ""
             countCheck = 4
         case NursingSections.PersonalHygiene.rawValue:
             idToUpdate = self.viewModel.personalHygieneDetail?.id ?? 0
@@ -489,7 +489,7 @@ class NursingCareFormViewController: BaseViewController {
             idToUpdate = self.viewModel.safetySecurityDetail?.id ?? 0
             self.getSaftySecurityData()
             apiName = APITargetPoint.save_NCF_Safety
-            SharedAccessEMR.sharedInstance.patientActiveStatus = ""
+            SharedappName.sharedInstance.patientActiveStatus = ""
         case NursingSections.PersonalHygiene.rawValue:
             idToUpdate = self.viewModel.personalHygieneDetail?.id ?? 0
             apiName = APITargetPoint.save_NCF_PersonalHygiene

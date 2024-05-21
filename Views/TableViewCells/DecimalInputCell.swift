@@ -1,6 +1,6 @@
 //
 //  DecimalInputCell.swift
-//  AccessEMR
+//  appName
 //
 //  Created by Vasundhara Parakh on 2/20/20.
 //  Copyright © 2020 smartData Enterprises (I) Ltd. All rights reserved.

@@ -1,6 +1,6 @@
 //
 //  NursingCareViewModel.swift
-//  AccessEMR
+//  appName
 //
 //  Created by Vasundhara Parakh on 3/16/20.
 //  Copyright © 2020 smartData Enterprises (I) Ltd. All rights reserved.
@@ -418,7 +418,7 @@ extension NursingCareViewModel{
     
     func getSafetyInput() -> [Any]{
         let residentStatus = self.getDropdownName(id: self.safetySecurityDetail?.transfer ?? 0, dropdown: self.dropDownforFieldType(type: NursingDropDownType.NCFS_SAFETY_SECURITY_DROPDOWN))
-//        SharedAccessEMR.sharedInstance.patientActiveStatus = residentStatus
+//        SharedappName.sharedInstance.patientActiveStatus = residentStatus
         UserDefaults.setPatientStatus(token: residentStatus)
         let careDone = self.getDropdownName(id: self.safetySecurityDetail?.careDoneAccordingToCarePlanId ?? 0, dropdown: self.dropDownforFieldType(type: NursingDropDownType.NCFS_NURSING_CARE_FLOW_YN))
 

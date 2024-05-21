@@ -1,6 +1,6 @@
 //
 //  MasterService.swift
-//  AccessEMR
+//  appName
 //
 //  Created by Vasundhara Parakh on 3/2/20.
 //  Copyright © 2020 smartData Enterprises (I) Ltd. All rights reserved.
@@ -338,7 +338,7 @@ class MasterService: APIService {
                                     fallBodyTempUnit.append(dropdown)
                                 }
                             }
-                            SharedAccessEMR.sharedInstance.fallBodyTempUnit = fallBodyTempUnit
+                            SharedappName.sharedInstance.fallBodyTempUnit = fallBodyTempUnit
                         }
                         
                         if let masterArray = data["masterVitalPosition"] as? NSArray{
@@ -347,7 +347,7 @@ class MasterService: APIService {
                                             masterVitalPositionFall.append(dropdown)
                                             }
                                     }
-                        SharedAccessEMR.sharedInstance.masterVitalPositionFall = masterVitalPositionFall
+                        SharedappName.sharedInstance.masterVitalPositionFall = masterVitalPositionFall
                         }
  
                     }

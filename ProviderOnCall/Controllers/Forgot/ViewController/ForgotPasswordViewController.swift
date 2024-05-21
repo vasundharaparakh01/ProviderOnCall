@@ -1,6 +1,6 @@
 //
 //  ForgotPasswordViewController.swift
-//  AccessEMR
+//  appName
 //
 //  Created by Ratnesh Swarnkar on 2/26/20.
 //  Copyright © 2020 smartData Enterprises (I) Ltd. All rights reserved.

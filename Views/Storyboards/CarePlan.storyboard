@@ -16,12 +16,12 @@
         <!--Care Plan View Controller-->
         <scene sceneID="DGF-9X-P95">
             <objects>
-                <viewController storyboardIdentifier="CarePlanViewController" id="xxa-mD-LDx" customClass="CarePlanViewController" customModule="AccessEMR" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="CarePlanViewController" id="xxa-mD-LDx" customClass="CarePlanViewController" customModule="appName" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ttd-7F-bnc">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="NHv-Zx-UKv" customClass="ResidentCardView" customModule="AccessEMR" customModuleProvider="target">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="NHv-Zx-UKv" customClass="ResidentCardView" customModule="appName" customModuleProvider="target">
                                 <rect key="frame" x="20" y="54" width="374" height="170"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                 <constraints>
@@ -61,12 +61,12 @@
         <!--Non Section Care Plan View Controller-->
         <scene sceneID="GML-47-zyb">
             <objects>
-                <viewController storyboardIdentifier="NonSectionCarePlanViewController" id="1fn-5T-8LT" customClass="NonSectionCarePlanViewController" customModule="AccessEMR" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="NonSectionCarePlanViewController" id="1fn-5T-8LT" customClass="NonSectionCarePlanViewController" customModule="appName" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="iLM-ZM-JWW">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="XNp-fh-xWo" customClass="ResidentCardView" customModule="AccessEMR" customModuleProvider="target">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="XNp-fh-xWo" customClass="ResidentCardView" customModule="appName" customModuleProvider="target">
                                 <rect key="frame" x="20" y="54" width="374" height="170"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                 <constraints>
@@ -182,12 +182,12 @@
         <!--Section Care Plan View Controller-->
         <scene sceneID="ttz-P2-6ux">
             <objects>
-                <viewController storyboardIdentifier="SectionCarePlanViewController" id="C5z-UP-3Ae" customClass="SectionCarePlanViewController" customModule="AccessEMR" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="SectionCarePlanViewController" id="C5z-UP-3Ae" customClass="SectionCarePlanViewController" customModule="appName" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="aoo-YE-HQp">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1ZW-4o-WIp" customClass="ResidentCardView" customModule="AccessEMR" customModuleProvider="target">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1ZW-4o-WIp" customClass="ResidentCardView" customModule="appName" customModuleProvider="target">
                                 <rect key="frame" x="20" y="54" width="374" height="170"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                 <constraints>

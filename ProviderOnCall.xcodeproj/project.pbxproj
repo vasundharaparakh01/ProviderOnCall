@@ -42,7 +42,6 @@
 		35B009EC24D980A4006D685D /* MealMasterDropdown.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35B009EB24D980A4006D685D /* MealMasterDropdown.swift */; };
 		35D43EF524DACA3D0066418F /* RecursiveMealCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35D43EF324DACA3D0066418F /* RecursiveMealCell.swift */; };
 		35D43EF624DACA3D0066418F /* RecursiveMealCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 35D43EF424DACA3D0066418F /* RecursiveMealCell.xib */; };
-		56AF25E78A9DC1CC24AB0BA6 /* Pods_AccessEMR.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EDA663F93B587E592EE1096 /* Pods_AccessEMR.framework */; };
 		5906865323E941C1002C65B0 /* ResidentCardView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5906865223E941C1002C65B0 /* ResidentCardView.xib */; };
 		5906865523E94303002C65B0 /* ResidentCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5906865423E94303002C65B0 /* ResidentCardView.swift */; };
 		5906865823E94F16002C65B0 /* ListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5906865623E94F16002C65B0 /* ListTableViewCell.swift */; };
@@ -51,8 +50,6 @@
 		591316F923E007D3005CAD84 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 591316F823E007D3005CAD84 /* AppDelegate.swift */; };
 		591316FB23E007D3005CAD84 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 591316FA23E007D3005CAD84 /* SceneDelegate.swift */; };
 		5913170223E007D4005CAD84 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5913170123E007D4005CAD84 /* Assets.xcassets */; };
-		5913171023E007D4005CAD84 /* AccessEMRTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5913170F23E007D4005CAD84 /* AccessEMRTests.swift */; };
-		5913171B23E007D4005CAD84 /* AccessEMRUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5913171A23E007D4005CAD84 /* AccessEMRUITests.swift */; };
 		5913173F23E00849005CAD84 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5913172E23E00848005CAD84 /* LaunchScreen.storyboard */; };
 		5913174023E00849005CAD84 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5913172F23E00848005CAD84 /* Main.storyboard */; };
 		5913174123E00849005CAD84 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5913173123E00849005CAD84 /* BaseViewController.swift */; };
@@ -83,7 +80,7 @@
 		BFCE47B023E2B727000F4689 /* poppins_medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BFCE47AE23E2B727000F4689 /* poppins_medium.ttf */; };
 		C50898BD2590B250006836C0 /* CellTrendGraph.swift in Sources */ = {isa = PBXBuildFile; fileRef = C50898BB2590B250006836C0 /* CellTrendGraph.swift */; };
 		C50898BE2590B250006836C0 /* CellTrendGraph.xib in Resources */ = {isa = PBXBuildFile; fileRef = C50898BC2590B250006836C0 /* CellTrendGraph.xib */; };
-		C53D510025A8649C00D76B26 /* SharedAccessEMR.swift in Sources */ = {isa = PBXBuildFile; fileRef = C53D50FF25A8649C00D76B26 /* SharedAccessEMR.swift */; };
+		C53D510025A8649C00D76B26 /* SharedappName.swift in Sources */ = {isa = PBXBuildFile; fileRef = C53D50FF25A8649C00D76B26 /* SharedappName.swift */; };
 		C54059C32599EA8500CD1A73 /* LastLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = C54059C22599EA8400CD1A73 /* LastLocation.swift */; };
 		C54863E2258CB75D00C62821 /* InputOutPutChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = C54863E1258CB75B00C62821 /* InputOutPutChart.swift */; };
 		C55315E725A489C4004486F4 /* FallAssessmentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C55315E625A489C4004486F4 /* FallAssessmentViewController.swift */; };
@@ -519,32 +516,9 @@
 		C6FE84E5247BA2E000502838 /* IncidentReportViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6FE84E4247BA2E000502838 /* IncidentReportViewModel.swift */; };
 		C6FE84EE247BBD1F00502838 /* RecursiveSingleInputCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6FE84EC247BBD1F00502838 /* RecursiveSingleInputCell.swift */; };
 		C6FE84EF247BBD1F00502838 /* RecursiveSingleInputCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C6FE84ED247BBD1F00502838 /* RecursiveSingleInputCell.xib */; };
-		F394BD868CFB2AF26CE9FD6D /* Pods_AccessEMRTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6974A4A74DBDB3A1CA724F8 /* Pods_AccessEMRTests.framework */; };
-		FE0A297EA1659711B7A2D76C /* Pods_AccessEMR_AccessEMRUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 036CDCE6BC97E1ECBDFD34A9 /* Pods_AccessEMR_AccessEMRUITests.framework */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		5913170C23E007D4005CAD84 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 591316ED23E007D3005CAD84 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 591316F423E007D3005CAD84;
-			remoteInfo = AccessEMRPOC;
-		};
-		5913171723E007D4005CAD84 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 591316ED23E007D3005CAD84 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 591316F423E007D3005CAD84;
-			remoteInfo = AccessEMRPOC;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
-		036CDCE6BC97E1ECBDFD34A9 /* Pods_AccessEMR_AccessEMRUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AccessEMR_AccessEMRUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		149A9442DA62707A5BE54AA0 /* Pods-AccessEMRTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AccessEMRTests.release.xcconfig"; path = "Target Support Files/Pods-AccessEMRTests/Pods-AccessEMRTests.release.xcconfig"; sourceTree = "<group>"; };
-		17DC914932374F8547EC75FC /* Pods-AccessEMR-AccessEMRUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AccessEMR-AccessEMRUITests.release.xcconfig"; path = "Target Support Files/Pods-AccessEMR-AccessEMRUITests/Pods-AccessEMR-AccessEMRUITests.release.xcconfig"; sourceTree = "<group>"; };
-		2990E7D250AAD68E79566E48 /* Pods-AccessEMR-AccessEMRUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AccessEMR-AccessEMRUITests.debug.xcconfig"; path = "Target Support Files/Pods-AccessEMR-AccessEMRUITests/Pods-AccessEMR-AccessEMRUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		3508E2A024B82D9B000C74A2 /* DrugIndication.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrugIndication.swift; sourceTree = "<group>"; };
 		3546B6FF24D2CDF500E429E8 /* ScheduleFormArray.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScheduleFormArray.swift; sourceTree = "<group>"; };
 		3548AF4824DBD13100ED2F7D /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
@@ -582,20 +556,16 @@
 		35BB889724EA538700EB2202 /* VancouverTestLoc2.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = VancouverTestLoc2.gpx; sourceTree = "<group>"; };
 		35D43EF324DACA3D0066418F /* RecursiveMealCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecursiveMealCell.swift; sourceTree = "<group>"; };
 		35D43EF424DACA3D0066418F /* RecursiveMealCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RecursiveMealCell.xib; sourceTree = "<group>"; };
-		3956FFD451A1A1BEE8D01572 /* Pods-AccessEMR.debugstaging.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AccessEMR.debugstaging.xcconfig"; path = "Target Support Files/Pods-AccessEMR/Pods-AccessEMR.debugstaging.xcconfig"; sourceTree = "<group>"; };
+		3956FFD451A1A1BEE8D01572 /* Pods-appName.debugstaging.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-appName.debugstaging.xcconfig"; path = "Target Support Files/Pods-appName/Pods-appName.debugstaging.xcconfig"; sourceTree = "<group>"; };
 		5906865223E941C1002C65B0 /* ResidentCardView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ResidentCardView.xib; sourceTree = "<group>"; };
 		5906865423E94303002C65B0 /* ResidentCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResidentCardView.swift; sourceTree = "<group>"; };
 		5906865623E94F16002C65B0 /* ListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListTableViewCell.swift; sourceTree = "<group>"; };
 		5906865723E94F16002C65B0 /* ListTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ListTableViewCell.xib; sourceTree = "<group>"; };
 		5906865A23E9671B002C65B0 /* VitalHistoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VitalHistoryViewController.swift; sourceTree = "<group>"; };
-		591316F523E007D3005CAD84 /* AccessEMR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AccessEMR.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		591316F523E007D3005CAD84 /* ProviderOnCall */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = ProviderOnCall; path = ../../../../../../../../Desktop/git/ProviderOnCall; sourceTree = BUILT_PRODUCTS_DIR; };
 		591316F823E007D3005CAD84 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		591316FA23E007D3005CAD84 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		5913170123E007D4005CAD84 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		5913170B23E007D4005CAD84 /* AccessEMRTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AccessEMRTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		5913170F23E007D4005CAD84 /* AccessEMRTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessEMRTests.swift; sourceTree = "<group>"; };
-		5913171623E007D4005CAD84 /* AccessEMRUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AccessEMRUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		5913171A23E007D4005CAD84 /* AccessEMRUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessEMRUITests.swift; sourceTree = "<group>"; };
 		5913172E23E00848005CAD84 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5913172F23E00848005CAD84 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		5913173123E00849005CAD84 /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
@@ -621,21 +591,15 @@
 		5946BCF323E82F2900408B37 /* poppins_bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = poppins_bold.ttf; sourceTree = "<group>"; };
 		5946BCF423E8320E00408B37 /* ResidentDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResidentDetailViewController.swift; sourceTree = "<group>"; };
 		5946BCF623E8480D00408B37 /* UIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewController.swift; sourceTree = "<group>"; };
-		5F75EDB9EEFC373B131C56BB /* Pods-AccessEMR-AccessEMRUITests.releasestaging.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AccessEMR-AccessEMRUITests.releasestaging.xcconfig"; path = "Target Support Files/Pods-AccessEMR-AccessEMRUITests/Pods-AccessEMR-AccessEMRUITests.releasestaging.xcconfig"; sourceTree = "<group>"; };
-		60EB62404EF118EE2294AE91 /* Pods-AccessEMR.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AccessEMR.debug.xcconfig"; path = "Target Support Files/Pods-AccessEMR/Pods-AccessEMR.debug.xcconfig"; sourceTree = "<group>"; };
-		695AA9AFB25626502DB32835 /* Pods-AccessEMR-AccessEMRUITests.debugstaging.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AccessEMR-AccessEMRUITests.debugstaging.xcconfig"; path = "Target Support Files/Pods-AccessEMR-AccessEMRUITests/Pods-AccessEMR-AccessEMRUITests.debugstaging.xcconfig"; sourceTree = "<group>"; };
-		7EDA663F93B587E592EE1096 /* Pods_AccessEMR.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AccessEMR.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		807459AFEAF58437CACD0A03 /* Pods-AccessEMRTests.releasestaging.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AccessEMRTests.releasestaging.xcconfig"; path = "Target Support Files/Pods-AccessEMRTests/Pods-AccessEMRTests.releasestaging.xcconfig"; sourceTree = "<group>"; };
-		A6974A4A74DBDB3A1CA724F8 /* Pods_AccessEMRTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AccessEMRTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		ABE2497B4592C4FF2E04ACEE /* Pods-AccessEMRTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AccessEMRTests.debug.xcconfig"; path = "Target Support Files/Pods-AccessEMRTests/Pods-AccessEMRTests.debug.xcconfig"; sourceTree = "<group>"; };
-		AEA074805F1B575949444949 /* Pods-AccessEMR.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AccessEMR.release.xcconfig"; path = "Target Support Files/Pods-AccessEMR/Pods-AccessEMR.release.xcconfig"; sourceTree = "<group>"; };
+		60EB62404EF118EE2294AE91 /* Pods-appName.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-appName.debug.xcconfig"; path = "Target Support Files/Pods-appName/Pods-appName.debug.xcconfig"; sourceTree = "<group>"; };
+		AEA074805F1B575949444949 /* Pods-appName.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-appName.release.xcconfig"; path = "Target Support Files/Pods-appName/Pods-appName.release.xcconfig"; sourceTree = "<group>"; };
 		BFBD2AEC23E2F84800BA0D99 /* Validator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Validator.swift; sourceTree = "<group>"; };
 		BFCE47AA23E2B319000F4689 /* UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
 		BFCE47AD23E2B727000F4689 /* poppins_regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = poppins_regular.ttf; sourceTree = "<group>"; };
 		BFCE47AE23E2B727000F4689 /* poppins_medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = poppins_medium.ttf; sourceTree = "<group>"; };
 		C50898BB2590B250006836C0 /* CellTrendGraph.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellTrendGraph.swift; sourceTree = "<group>"; };
 		C50898BC2590B250006836C0 /* CellTrendGraph.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CellTrendGraph.xib; sourceTree = "<group>"; };
-		C53D50FF25A8649C00D76B26 /* SharedAccessEMR.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharedAccessEMR.swift; sourceTree = "<group>"; };
+		C53D50FF25A8649C00D76B26 /* SharedappName.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharedappName.swift; sourceTree = "<group>"; };
 		C54059C22599EA8400CD1A73 /* LastLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LastLocation.swift; sourceTree = "<group>"; };
 		C54863E1258CB75B00C62821 /* InputOutPutChart.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InputOutPutChart.swift; sourceTree = "<group>"; };
 		C55315E625A489C4004486F4 /* FallAssessmentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FallAssessmentViewController.swift; sourceTree = "<group>"; };
@@ -973,14 +937,12 @@
 		C69F55E9242B66FC00225ED8 /* ESASGraphViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ESASGraphViewModel.swift; sourceTree = "<group>"; };
 		C69F55EB242B696300225ED8 /* GraphDetails.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GraphDetails.swift; sourceTree = "<group>"; };
 		C69F55EC242B696300225ED8 /* TrendGraph.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrendGraph.swift; sourceTree = "<group>"; };
-		C69F55EF242B88C700225ED8 /* AccessEMR-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AccessEMR-Bridging-Header.h"; sourceTree = "<group>"; };
 		C69F55F2242DC1AF00225ED8 /* TabCollectionCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TabCollectionCell.xib; sourceTree = "<group>"; };
 		C69F55F3242DC1B000225ED8 /* TabCollectionView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TabCollectionView.xib; sourceTree = "<group>"; };
 		C69F55F4242DC1B100225ED8 /* TabCollectionCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabCollectionCell.swift; sourceTree = "<group>"; };
 		C69F55F5242DC1B200225ED8 /* TabCollectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabCollectionView.swift; sourceTree = "<group>"; };
 		C6A332942419FBD90001BF83 /* ADLTrackingTool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ADLTrackingTool.swift; sourceTree = "<group>"; };
 		C6A33296241A00500001BF83 /* ADLTrackingListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ADLTrackingListViewController.swift; sourceTree = "<group>"; };
-		C6A53101247E5D0500D056FF /* AccessEMR.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = AccessEMR.entitlements; sourceTree = "<group>"; };
 		C6A53102247FD13A00D056FF /* PersonalHygiene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonalHygiene.swift; sourceTree = "<group>"; };
 		C6A53104247FF59B00D056FF /* SleepRest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SleepRest.swift; sourceTree = "<group>"; };
 		C6A531062480C4CB00D056FF /* BehaviorTypes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BehaviorTypes.swift; sourceTree = "<group>"; };
@@ -1085,8 +1047,7 @@
 		C6FE84E4247BA2E000502838 /* IncidentReportViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IncidentReportViewModel.swift; sourceTree = "<group>"; };
 		C6FE84EC247BBD1F00502838 /* RecursiveSingleInputCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecursiveSingleInputCell.swift; sourceTree = "<group>"; };
 		C6FE84ED247BBD1F00502838 /* RecursiveSingleInputCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RecursiveSingleInputCell.xib; sourceTree = "<group>"; };
-		D574DF46C45811BC6C18BD25 /* Pods-AccessEMR.releasestaging.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AccessEMR.releasestaging.xcconfig"; path = "Target Support Files/Pods-AccessEMR/Pods-AccessEMR.releasestaging.xcconfig"; sourceTree = "<group>"; };
-		DD686EDB8FB1969ACFD14454 /* Pods-AccessEMRTests.debugstaging.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AccessEMRTests.debugstaging.xcconfig"; path = "Target Support Files/Pods-AccessEMRTests/Pods-AccessEMRTests.debugstaging.xcconfig"; sourceTree = "<group>"; };
+		D574DF46C45811BC6C18BD25 /* Pods-appName.releasestaging.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-appName.releasestaging.xcconfig"; path = "Target Support Files/Pods-appName/Pods-appName.releasestaging.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1095,23 +1056,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				3548AF4924DBD13100ED2F7D /* CoreLocation.framework in Frameworks */,
-				56AF25E78A9DC1CC24AB0BA6 /* Pods_AccessEMR.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		5913170823E007D4005CAD84 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F394BD868CFB2AF26CE9FD6D /* Pods_AccessEMRTests.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		5913171323E007D4005CAD84 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				FE0A297EA1659711B7A2D76C /* Pods_AccessEMR_AccessEMRUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1142,9 +1086,7 @@
 		591316EC23E007D3005CAD84 = {
 			isa = PBXGroup;
 			children = (
-				591316F723E007D3005CAD84 /* AccessEMR */,
-				5913170E23E007D4005CAD84 /* AccessEMRTests */,
-				5913171923E007D4005CAD84 /* AccessEMRUITests */,
+				591316F723E007D3005CAD84 /* ProviderOnCall */,
 				591316F623E007D3005CAD84 /* Products */,
 				B5EA9F1F9D038E88429AA2BB /* Pods */,
 				E630F7C8EFA1470DFA89132B /* Frameworks */,
@@ -1154,17 +1096,14 @@
 		591316F623E007D3005CAD84 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				591316F523E007D3005CAD84 /* AccessEMR.app */,
-				5913170B23E007D4005CAD84 /* AccessEMRTests.xctest */,
-				5913171623E007D4005CAD84 /* AccessEMRUITests.xctest */,
+				591316F523E007D3005CAD84 /* ProviderOnCall */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		591316F723E007D3005CAD84 /* AccessEMR */ = {
+		591316F723E007D3005CAD84 /* ProviderOnCall */ = {
 			isa = PBXGroup;
 			children = (
-				C6A53101247E5D0500D056FF /* AccessEMR.entitlements */,
 				DE1FB2FC2403DA4A002E4B61 /* AppDelegate */,
 				C6B5181223FFF4B500BCA235 /* Extensions */,
 				C61AC32D23FEBAB1001CBEC9 /* Helpers */,
@@ -1176,25 +1115,8 @@
 				C625D0392404DEE70024C271 /* Stores */,
 				5913175723E018AC005CAD84 /* Resources */,
 				5913170123E007D4005CAD84 /* Assets.xcassets */,
-				C69F55EF242B88C700225ED8 /* AccessEMR-Bridging-Header.h */,
 			);
-			path = AccessEMR;
-			sourceTree = "<group>";
-		};
-		5913170E23E007D4005CAD84 /* AccessEMRTests */ = {
-			isa = PBXGroup;
-			children = (
-				5913170F23E007D4005CAD84 /* AccessEMRTests.swift */,
-			);
-			path = AccessEMRTests;
-			sourceTree = "<group>";
-		};
-		5913171923E007D4005CAD84 /* AccessEMRUITests */ = {
-			isa = PBXGroup;
-			children = (
-				5913171A23E007D4005CAD84 /* AccessEMRUITests.swift */,
-			);
-			path = AccessEMRUITests;
+			path = ProviderOnCall;
 			sourceTree = "<group>";
 		};
 		5913172C23E00848005CAD84 /* Views */ = {
@@ -1226,7 +1148,7 @@
 		5913173023E00849005CAD84 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				C53D50FF25A8649C00D76B26 /* SharedAccessEMR.swift */,
+				C53D50FF25A8649C00D76B26 /* SharedappName.swift */,
 				C6FE84DF247BA25700502838 /* IncidentReport */,
 				C64AAD07246BCBA500FD55B0 /* Schedule */,
 				C61B8751246AB22300A9C03C /* Notification */,
@@ -1356,18 +1278,10 @@
 		B5EA9F1F9D038E88429AA2BB /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				60EB62404EF118EE2294AE91 /* Pods-AccessEMR.debug.xcconfig */,
-				3956FFD451A1A1BEE8D01572 /* Pods-AccessEMR.debugstaging.xcconfig */,
-				AEA074805F1B575949444949 /* Pods-AccessEMR.release.xcconfig */,
-				D574DF46C45811BC6C18BD25 /* Pods-AccessEMR.releasestaging.xcconfig */,
-				2990E7D250AAD68E79566E48 /* Pods-AccessEMR-AccessEMRUITests.debug.xcconfig */,
-				695AA9AFB25626502DB32835 /* Pods-AccessEMR-AccessEMRUITests.debugstaging.xcconfig */,
-				17DC914932374F8547EC75FC /* Pods-AccessEMR-AccessEMRUITests.release.xcconfig */,
-				5F75EDB9EEFC373B131C56BB /* Pods-AccessEMR-AccessEMRUITests.releasestaging.xcconfig */,
-				ABE2497B4592C4FF2E04ACEE /* Pods-AccessEMRTests.debug.xcconfig */,
-				DD686EDB8FB1969ACFD14454 /* Pods-AccessEMRTests.debugstaging.xcconfig */,
-				149A9442DA62707A5BE54AA0 /* Pods-AccessEMRTests.release.xcconfig */,
-				807459AFEAF58437CACD0A03 /* Pods-AccessEMRTests.releasestaging.xcconfig */,
+				60EB62404EF118EE2294AE91 /* Pods-appName.debug.xcconfig */,
+				3956FFD451A1A1BEE8D01572 /* Pods-appName.debugstaging.xcconfig */,
+				AEA074805F1B575949444949 /* Pods-appName.release.xcconfig */,
+				D574DF46C45811BC6C18BD25 /* Pods-appName.releasestaging.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -2847,9 +2761,6 @@
 			isa = PBXGroup;
 			children = (
 				3548AF4824DBD13100ED2F7D /* CoreLocation.framework */,
-				7EDA663F93B587E592EE1096 /* Pods_AccessEMR.framework */,
-				036CDCE6BC97E1ECBDFD34A9 /* Pods_AccessEMR_AccessEMRUITests.framework */,
-				A6974A4A74DBDB3A1CA724F8 /* Pods_AccessEMRTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -2857,9 +2768,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		591316F423E007D3005CAD84 /* AccessEMR */ = {
+		591316F423E007D3005CAD84 /* ProviderOnCall */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5913171F23E007D4005CAD84 /* Build configuration list for PBXNativeTarget "AccessEMR" */;
+			buildConfigurationList = 5913171F23E007D4005CAD84 /* Build configuration list for PBXNativeTarget "ProviderOnCall" */;
 			buildPhases = (
 				0ADD10329BFF2E8335D742DF /* [CP] Check Pods Manifest.lock */,
 				591316F123E007D3005CAD84 /* Sources */,
@@ -2872,49 +2783,10 @@
 			);
 			dependencies = (
 			);
-			name = AccessEMR;
-			productName = AccessEMRPOC;
-			productReference = 591316F523E007D3005CAD84 /* AccessEMR.app */;
+			name = ProviderOnCall;
+			productName = appNamePOC;
+			productReference = 591316F523E007D3005CAD84 /* ProviderOnCall */;
 			productType = "com.apple.product-type.application";
-		};
-		5913170A23E007D4005CAD84 /* AccessEMRTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 5913172223E007D4005CAD84 /* Build configuration list for PBXNativeTarget "AccessEMRTests" */;
-			buildPhases = (
-				0C3337A400EB40B1832412CB /* [CP] Check Pods Manifest.lock */,
-				5913170723E007D4005CAD84 /* Sources */,
-				5913170823E007D4005CAD84 /* Frameworks */,
-				5913170923E007D4005CAD84 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				5913170D23E007D4005CAD84 /* PBXTargetDependency */,
-			);
-			name = AccessEMRTests;
-			productName = AccessEMRPOCTests;
-			productReference = 5913170B23E007D4005CAD84 /* AccessEMRTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		5913171523E007D4005CAD84 /* AccessEMRUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 5913172523E007D4005CAD84 /* Build configuration list for PBXNativeTarget "AccessEMRUITests" */;
-			buildPhases = (
-				DE3DC1A9D4872CBAEF287932 /* [CP] Check Pods Manifest.lock */,
-				5913171223E007D4005CAD84 /* Sources */,
-				5913171323E007D4005CAD84 /* Frameworks */,
-				5913171423E007D4005CAD84 /* Resources */,
-				F6B0DE3C0CC6E37D82AAD540 /* [CP] Embed Pods Frameworks */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				5913171823E007D4005CAD84 /* PBXTargetDependency */,
-			);
-			name = AccessEMRUITests;
-			productName = AccessEMRPOCUITests;
-			productReference = 5913171623E007D4005CAD84 /* AccessEMRUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
@@ -2928,14 +2800,6 @@
 				TargetAttributes = {
 					591316F423E007D3005CAD84 = {
 						CreatedOnToolsVersion = 11.3.1;
-					};
-					5913170A23E007D4005CAD84 = {
-						CreatedOnToolsVersion = 11.3.1;
-						TestTargetID = 591316F423E007D3005CAD84;
-					};
-					5913171523E007D4005CAD84 = {
-						CreatedOnToolsVersion = 11.3.1;
-						TestTargetID = 591316F423E007D3005CAD84;
 					};
 				};
 			};
@@ -2953,9 +2817,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				591316F423E007D3005CAD84 /* AccessEMR */,
-				5913170A23E007D4005CAD84 /* AccessEMRTests */,
-				5913171523E007D4005CAD84 /* AccessEMRUITests */,
+				591316F423E007D3005CAD84 /* ProviderOnCall */,
 			);
 		};
 /* End PBXProject section */
@@ -3083,20 +2945,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5913170923E007D4005CAD84 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		5913171423E007D4005CAD84 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
@@ -3115,29 +2963,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-AccessEMR-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		0C3337A400EB40B1832412CB /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-AccessEMRTests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-appName-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -3150,15 +2976,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-AccessEMR/Pods-AccessEMR-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-appName/Pods-appName-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-AccessEMR/Pods-AccessEMR-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-appName/Pods-appName-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AccessEMR/Pods-AccessEMR-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-appName/Pods-appName-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		C58315ED25E92538009CF5DA /* ShellScript */ = {
@@ -3177,45 +3003,6 @@
 			runOnlyForDeploymentPostprocessing = 1;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/FirebaseCrashlytics/run\"\n\n";
-		};
-		DE3DC1A9D4872CBAEF287932 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-AccessEMR-AccessEMRUITests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		F6B0DE3C0CC6E37D82AAD540 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-AccessEMR-AccessEMRUITests/Pods-AccessEMR-AccessEMRUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-AccessEMR-AccessEMRUITests/Pods-AccessEMR-AccessEMRUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AccessEMR-AccessEMRUITests/Pods-AccessEMR-AccessEMRUITests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -3311,7 +3098,7 @@
 				C623D91E24601C8300A8200E /* RCMessagesStatusCell.m in Sources */,
 				C625D0652404F2DB0024C271 /* UserDocumentNotification.swift in Sources */,
 				C623D91C24601C8300A8200E /* RCMessagesVideoCell.m in Sources */,
-				C53D510025A8649C00D76B26 /* SharedAccessEMR.swift in Sources */,
+				C53D510025A8649C00D76B26 /* SharedappName.swift in Sources */,
 				C635874A2418A5FE007535D1 /* Behaviour.swift in Sources */,
 				C68CAE7D24486C9600CEA259 /* MedicationPopupViewController.swift in Sources */,
 				C69764EC248A70D400A6B12B /* TNCDetail.swift in Sources */,
@@ -3620,36 +3407,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5913170723E007D4005CAD84 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				5913171023E007D4005CAD84 /* AccessEMRTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		5913171223E007D4005CAD84 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				5913171B23E007D4005CAD84 /* AccessEMRUITests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		5913170D23E007D4005CAD84 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 591316F423E007D3005CAD84 /* AccessEMR */;
-			targetProxy = 5913170C23E007D4005CAD84 /* PBXContainerItemProxy */;
-		};
-		5913171823E007D4005CAD84 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 591316F423E007D3005CAD84 /* AccessEMR */;
-			targetProxy = 5913171723E007D4005CAD84 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		5913176123E01A17005CAD84 /* Localizable.strings */ = {
@@ -3789,27 +3547,21 @@
 		};
 		5913172023E007D4005CAD84 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 60EB62404EF118EE2294AE91 /* Pods-AccessEMR.debug.xcconfig */;
+			baseConfigurationReference = 60EB62404EF118EE2294AE91 /* Pods-appName.debug.xcconfig */;
 			buildSettings = {
 				APP_ICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_APPICON_NAME = "${APP_ICON_NAME}";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				BUNDLE_IDENTIFIER = com.accessemr.pointOfCare;
-				CODE_SIGN_ENTITLEMENTS = AccessEMR/AccessEMR.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 126;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEVELOPMENT_TEAM = XMHMLC5377;
-				INFOPLIST_FILE = AccessEMR/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.accessemr.pointOfCareDev;
-				PRODUCT_NAME = AccessEMR;
 				PROVISIONING_PROFILE_SPECIFIER = "";
-				SWIFT_OBJC_BRIDGING_HEADER = "AccessEMR/AccessEMR-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -3817,120 +3569,22 @@
 		};
 		5913172123E007D4005CAD84 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = AEA074805F1B575949444949 /* Pods-AccessEMR.release.xcconfig */;
+			baseConfigurationReference = AEA074805F1B575949444949 /* Pods-appName.release.xcconfig */;
 			buildSettings = {
 				APP_ICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_APPICON_NAME = "${APP_ICON_NAME}";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				BUNDLE_IDENTIFIER = com.accessemr.pointOfCare;
-				CODE_SIGN_ENTITLEMENTS = AccessEMR/AccessEMR.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 126;
 				DEVELOPMENT_TEAM = XMHMLC5377;
-				INFOPLIST_FILE = AccessEMR/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.accessemr.pointOfCareDev;
-				PRODUCT_NAME = AccessEMR;
 				PROVISIONING_PROFILE_SPECIFIER = "";
-				SWIFT_OBJC_BRIDGING_HEADER = "AccessEMR/AccessEMR-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
-		5913172323E007D4005CAD84 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = ABE2497B4592C4FF2E04ACEE /* Pods-AccessEMRTests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_IDENTITY = "Apple Distribution";
-				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = XMHMLC5377;
-				INFOPLIST_FILE = AccessEMRPOCTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.smartdata.architecture.AccessEMRPOCTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AccessEMRPOC.app/AccessEMRPOC";
-			};
-			name = Debug;
-		};
-		5913172423E007D4005CAD84 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 149A9442DA62707A5BE54AA0 /* Pods-AccessEMRTests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_IDENTITY = "Apple Distribution";
-				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = XMHMLC5377;
-				INFOPLIST_FILE = AccessEMRPOCTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.smartdata.architecture.AccessEMRPOCTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AccessEMRPOC.app/AccessEMRPOC";
-			};
-			name = Release;
-		};
-		5913172623E007D4005CAD84 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2990E7D250AAD68E79566E48 /* Pods-AccessEMR-AccessEMRUITests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_IDENTITY = "Apple Distribution";
-				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = XMHMLC5377;
-				INFOPLIST_FILE = AccessEMRPOCUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.smartdata.architecture.AccessEMRPOCUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = AccessEMRPOC;
-			};
-			name = Debug;
-		};
-		5913172723E007D4005CAD84 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 17DC914932374F8547EC75FC /* Pods-AccessEMR-AccessEMRUITests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_IDENTITY = "Apple Distribution";
-				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = XMHMLC5377;
-				INFOPLIST_FILE = AccessEMRPOCUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.smartdata.architecture.AccessEMRPOCUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = AccessEMRPOC;
 			};
 			name = Release;
 		};
@@ -4001,75 +3655,23 @@
 		};
 		DE1FB32E2403EDB0002E4B61 /* DebugStaging */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3956FFD451A1A1BEE8D01572 /* Pods-AccessEMR.debugstaging.xcconfig */;
+			baseConfigurationReference = 3956FFD451A1A1BEE8D01572 /* Pods-appName.debugstaging.xcconfig */;
 			buildSettings = {
 				APP_ICON_NAME = AppIconStaging;
 				ASSETCATALOG_COMPILER_APPICON_NAME = "${APP_ICON_NAME}";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				BUNDLE_IDENTIFIER = com.accessemr.pointOfCareDev;
-				CODE_SIGN_ENTITLEMENTS = AccessEMR/AccessEMR.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 126;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEVELOPMENT_TEAM = XMHMLC5377;
-				INFOPLIST_FILE = AccessEMR/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.accessemr.pointOfCareDev;
-				PRODUCT_NAME = AccessEMR;
 				PROVISIONING_PROFILE_SPECIFIER = "";
-				SWIFT_OBJC_BRIDGING_HEADER = "AccessEMR/AccessEMR-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = DebugStaging;
-		};
-		DE1FB32F2403EDB0002E4B61 /* DebugStaging */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = DD686EDB8FB1969ACFD14454 /* Pods-AccessEMRTests.debugstaging.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_IDENTITY = "Apple Distribution";
-				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = XMHMLC5377;
-				INFOPLIST_FILE = AccessEMRPOCTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.smartdata.architecture.AccessEMRPOCTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AccessEMRPOC.app/AccessEMRPOC";
-			};
-			name = DebugStaging;
-		};
-		DE1FB3302403EDB0002E4B61 /* DebugStaging */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 695AA9AFB25626502DB32835 /* Pods-AccessEMR-AccessEMRUITests.debugstaging.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_IDENTITY = "Apple Distribution";
-				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = XMHMLC5377;
-				INFOPLIST_FILE = AccessEMRPOCUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.smartdata.architecture.AccessEMRPOCUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = AccessEMRPOC;
 			};
 			name = DebugStaging;
 		};
@@ -4135,74 +3737,22 @@
 		};
 		DE1FB3322403EDCF002E4B61 /* ReleaseStaging */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D574DF46C45811BC6C18BD25 /* Pods-AccessEMR.releasestaging.xcconfig */;
+			baseConfigurationReference = D574DF46C45811BC6C18BD25 /* Pods-appName.releasestaging.xcconfig */;
 			buildSettings = {
 				APP_ICON_NAME = AppIconStaging;
 				ASSETCATALOG_COMPILER_APPICON_NAME = "${APP_ICON_NAME}";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				BUNDLE_IDENTIFIER = com.accessemr.pointOfCareDev;
-				CODE_SIGN_ENTITLEMENTS = AccessEMR/AccessEMR.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 126;
 				DEVELOPMENT_TEAM = XMHMLC5377;
-				INFOPLIST_FILE = AccessEMR/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.accessemr.pointOfCareDev;
-				PRODUCT_NAME = AccessEMR;
 				PROVISIONING_PROFILE_SPECIFIER = "";
-				SWIFT_OBJC_BRIDGING_HEADER = "AccessEMR/AccessEMR-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = ReleaseStaging;
-		};
-		DE1FB3332403EDCF002E4B61 /* ReleaseStaging */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 807459AFEAF58437CACD0A03 /* Pods-AccessEMRTests.releasestaging.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_IDENTITY = "Apple Distribution";
-				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = XMHMLC5377;
-				INFOPLIST_FILE = AccessEMRPOCTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.smartdata.architecture.AccessEMRPOCTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AccessEMRPOC.app/AccessEMRPOC";
-			};
-			name = ReleaseStaging;
-		};
-		DE1FB3342403EDCF002E4B61 /* ReleaseStaging */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5F75EDB9EEFC373B131C56BB /* Pods-AccessEMR-AccessEMRUITests.releasestaging.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_IDENTITY = "Apple Distribution";
-				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = XMHMLC5377;
-				INFOPLIST_FILE = AccessEMRPOCUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.smartdata.architecture.AccessEMRPOCUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = AccessEMRPOC;
 			};
 			name = ReleaseStaging;
 		};
@@ -4220,35 +3770,13 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5913171F23E007D4005CAD84 /* Build configuration list for PBXNativeTarget "AccessEMR" */ = {
+		5913171F23E007D4005CAD84 /* Build configuration list for PBXNativeTarget "ProviderOnCall" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5913172023E007D4005CAD84 /* Debug */,
 				DE1FB32E2403EDB0002E4B61 /* DebugStaging */,
 				5913172123E007D4005CAD84 /* Release */,
 				DE1FB3322403EDCF002E4B61 /* ReleaseStaging */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		5913172223E007D4005CAD84 /* Build configuration list for PBXNativeTarget "AccessEMRTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				5913172323E007D4005CAD84 /* Debug */,
-				DE1FB32F2403EDB0002E4B61 /* DebugStaging */,
-				5913172423E007D4005CAD84 /* Release */,
-				DE1FB3332403EDCF002E4B61 /* ReleaseStaging */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		5913172523E007D4005CAD84 /* Build configuration list for PBXNativeTarget "AccessEMRUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				5913172623E007D4005CAD84 /* Debug */,
-				DE1FB3302403EDB0002E4B61 /* DebugStaging */,
-				5913172723E007D4005CAD84 /* Release */,
-				DE1FB3342403EDCF002E4B61 /* ReleaseStaging */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

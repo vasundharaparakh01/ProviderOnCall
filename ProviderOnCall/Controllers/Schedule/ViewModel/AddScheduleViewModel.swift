@@ -1,6 +1,6 @@
 //
 //  AddScheduleViewModel.swift
-//  AccessEMR
+
 //
 //  Created by Vasundhara Parakh on 5/15/20.
 //  Copyright © 2020 smartData Enterprises (I) Ltd. All rights reserved.

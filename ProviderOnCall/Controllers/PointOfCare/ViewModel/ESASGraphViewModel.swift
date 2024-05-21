@@ -1,6 +1,6 @@
 //
 //  ESASGraphViewModel.swift
-//  AccessEMR
+//  appName
 //
 //  Created by Vasundhara Parakh on 3/25/20.
 //  Copyright © 2020 smartData Enterprises (I) Ltd. All rights reserved.
@@ -204,8 +204,8 @@ extension ESASGraphViewModel{
     }
 
     func getInputArray() -> [Any]{
-         let unitName = self.getDropdownName(id: SharedAccessEMR.sharedInstance.unitIDSymptomTracker ?? 0, dropdown: self.dropdownUnit ?? [""])
-        self.selectedUnitID =  SharedAccessEMR.sharedInstance.unitIDSymptomTracker ?? 0
+         let unitName = self.getDropdownName(id: 0, dropdown: self.dropdownUnit ?? [""])
+        self.selectedUnitID =  0
         return [
             [
                 InputTextfieldModel(value: unitName, placeholder: ScheduleTitles.Unit, apiKey: "unitId", valueId: self.selectedUnitID, inputType: InputType.Dropdown, dropdownArr: self.dropdownUnit ?? [""],isValid: false, errorMessage: ConstantStrings.mandatory),

@@ -1,6 +1,6 @@
 //
 //  DirectionMapViewController.swift
-//  AccessEMR
+//  appName
 //
 //  Created by Vasundhara Mehta on 11/08/20.
 //  Copyright © 2020 smartData Enterprises (I) Ltd. All rights reserved.

@@ -23,7 +23,7 @@
         <!--Resident List View Controller-->
         <scene sceneID="xdG-Tw-OH4">
             <objects>
-                <viewController storyboardIdentifier="ResidentListViewController" automaticallyAdjustsScrollViewInsets="NO" id="z0W-9K-ziq" customClass="ResidentListViewController" customModule="AccessEMR" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="ResidentListViewController" automaticallyAdjustsScrollViewInsets="NO" id="z0W-9K-ziq" customClass="ResidentListViewController" customModule="appName" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="O2w-60-Scn">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -76,7 +76,7 @@
                                 <rect key="frame" x="19" y="110" width="337" height="499"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="ResidentTableViewCell" rowHeight="170" id="EbM-1j-Vu6" customClass="ResidentTableViewCell" customModule="AccessEMR" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="ResidentTableViewCell" rowHeight="170" id="EbM-1j-Vu6" customClass="ResidentTableViewCell" customModule="appName" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="337" height="170"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="EbM-1j-Vu6" id="cMD-nF-ij8">
@@ -314,12 +314,12 @@
         <!--Resident Detail View Controller-->
         <scene sceneID="PnN-kn-qvS">
             <objects>
-                <viewController storyboardIdentifier="ResidentDetailViewController" id="XhM-hD-696" customClass="ResidentDetailViewController" customModule="AccessEMR" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="ResidentDetailViewController" id="XhM-hD-696" customClass="ResidentDetailViewController" customModule="appName" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="xAi-Bw-7Q0">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wYr-EX-pG6" customClass="ResidentCardView" customModule="AccessEMR" customModuleProvider="target">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wYr-EX-pG6" customClass="ResidentCardView" customModule="appName" customModuleProvider="target">
                                 <rect key="frame" x="20" y="10" width="335" height="170"/>
                                 <color key="backgroundColor" red="0.74117647060000003" green="0.7843137255" blue="0.95686274510000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
@@ -468,12 +468,12 @@
         <!--Vital History View Controller-->
         <scene sceneID="Nqr-Ql-O5J">
             <objects>
-                <viewController storyboardIdentifier="VitalHistoryViewController" automaticallyAdjustsScrollViewInsets="NO" id="pn0-kw-wlY" customClass="VitalHistoryViewController" customModule="AccessEMR" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="VitalHistoryViewController" automaticallyAdjustsScrollViewInsets="NO" id="pn0-kw-wlY" customClass="VitalHistoryViewController" customModule="appName" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="b1d-th-JB0">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="20E-nc-NEm" customClass="ResidentCardView" customModule="AccessEMR" customModuleProvider="target">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="20E-nc-NEm" customClass="ResidentCardView" customModule="appName" customModuleProvider="target">
                                 <rect key="frame" x="20" y="10" width="335" height="170"/>
                                 <color key="backgroundColor" red="0.74117647060000003" green="0.7843137255" blue="0.95686274510000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
@@ -484,7 +484,7 @@
                                 <rect key="frame" x="20" y="195" width="335" height="462"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="VitalHistoryTableViewCell" rowHeight="405" id="Hh4-Fn-PBt" customClass="VitalHistoryTableViewCell" customModule="AccessEMR" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="VitalHistoryTableViewCell" rowHeight="405" id="Hh4-Fn-PBt" customClass="VitalHistoryTableViewCell" customModule="appName" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="335" height="405"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Hh4-Fn-PBt" id="wqC-1j-tal">
@@ -1013,7 +1013,7 @@
         <!--Home View Controller-->
         <scene sceneID="oTq-pG-C5V">
             <objects>
-                <viewController storyboardIdentifier="HomeViewController" id="ole-Ti-Wd5" customClass="HomeViewController" customModule="AccessEMR" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="HomeViewController" id="ole-Ti-Wd5" customClass="HomeViewController" customModule="appName" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Djt-iM-KwD">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1028,7 +1028,7 @@
                                     <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                                 </collectionViewFlowLayout>
                                 <cells>
-                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="HomeCollectionViewCell" id="4eK-na-yZz" customClass="HomeCollectionViewCell" customModule="AccessEMR" customModuleProvider="target">
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="HomeCollectionViewCell" id="4eK-na-yZz" customClass="HomeCollectionViewCell" customModule="appName" customModuleProvider="target">
                                         <rect key="frame" x="78.5" y="0.0" width="178" height="147"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="ucP-Kr-Frj">
@@ -1117,7 +1117,7 @@
         <!--Dashboard View Controller-->
         <scene sceneID="OOY-sh-gH5">
             <objects>
-                <tabBarController storyboardIdentifier="DashboardViewController" id="6hg-pd-LbC" customClass="DashboardViewController" customModule="AccessEMR" customModuleProvider="target" sceneMemberID="viewController">
+                <tabBarController storyboardIdentifier="DashboardViewController" id="6hg-pd-LbC" customClass="DashboardViewController" customModule="appName" customModuleProvider="target" sceneMemberID="viewController">
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" translucent="NO" id="Wkc-tM-haF">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -1157,7 +1157,7 @@
         <!--My Task View Controller-->
         <scene sceneID="5bt-l4-gU5">
             <objects>
-                <viewController storyboardIdentifier="MyTaskViewController" id="CwZ-sM-Iwb" customClass="MyTaskViewController" customModule="AccessEMR" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="MyTaskViewController" id="CwZ-sM-Iwb" customClass="MyTaskViewController" customModule="appName" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="oe6-lM-SFf">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1192,7 +1192,7 @@
         <!--Settings View Controller-->
         <scene sceneID="RKa-AI-ZhE">
             <objects>
-                <viewController storyboardIdentifier="SettingsViewController" id="R9W-MM-dZF" customClass="SettingsViewController" customModule="AccessEMR" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="SettingsViewController" id="R9W-MM-dZF" customClass="SettingsViewController" customModule="appName" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="sdf-Hu-RNw">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1204,7 +1204,7 @@
                                     <constraint firstAttribute="height" constant="230" id="wj4-vr-Kca"/>
                                 </constraints>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="SettingsCell" rowHeight="80" id="LE8-4h-QEr" customClass="SettingsCell" customModule="AccessEMR" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="SettingsCell" rowHeight="80" id="LE8-4h-QEr" customClass="SettingsCell" customModule="appName" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="375" height="80"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="LE8-4h-QEr" id="8Lv-kG-Ry8">
@@ -1361,7 +1361,7 @@
         <!--Task List View Controller-->
         <scene sceneID="eB9-vQ-5tO">
             <objects>
-                <viewController storyboardIdentifier="TaskListViewController" id="VH5-8p-XGW" customClass="TaskListViewController" customModule="AccessEMR" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="TaskListViewController" id="VH5-8p-XGW" customClass="TaskListViewController" customModule="appName" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Ps5-Ih-09t">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1445,7 +1445,7 @@
                                 <rect key="frame" x="20" y="70" width="335" height="577"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="TaskListCell" id="sFe-XT-4dm" customClass="TaskListCell" customModule="AccessEMR" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="TaskListCell" id="sFe-XT-4dm" customClass="TaskListCell" customModule="appName" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="335" height="219.5"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="sFe-XT-4dm" id="RkO-4v-IHQ">
@@ -1772,12 +1772,12 @@
         <!--Allergy List View Controller-->
         <scene sceneID="Ex2-3F-iJV">
             <objects>
-                <viewController storyboardIdentifier="AllergyListViewController" automaticallyAdjustsScrollViewInsets="NO" id="WCb-XF-cEz" customClass="AllergyListViewController" customModule="AccessEMR" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="AllergyListViewController" automaticallyAdjustsScrollViewInsets="NO" id="WCb-XF-cEz" customClass="AllergyListViewController" customModule="appName" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="7i0-WM-6OR">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Z93-6K-WQb" customClass="ResidentCardView" customModule="AccessEMR" customModuleProvider="target">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Z93-6K-WQb" customClass="ResidentCardView" customModule="appName" customModuleProvider="target">
                                 <rect key="frame" x="20" y="10" width="335" height="170"/>
                                 <color key="backgroundColor" red="0.74117647060000003" green="0.7843137255" blue="0.95686274510000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
@@ -1788,7 +1788,7 @@
                                 <rect key="frame" x="20" y="195" width="335" height="462"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="AllergyListTableViewCell" rowHeight="150" id="4Rf-1C-nqQ" customClass="AllergyListTableViewCell" customModule="AccessEMR" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="AllergyListTableViewCell" rowHeight="150" id="4Rf-1C-nqQ" customClass="AllergyListTableViewCell" customModule="appName" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="335" height="150"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="4Rf-1C-nqQ" id="nLu-zg-T7b">
@@ -1957,7 +1957,7 @@
         <!--Viewer View Controller-->
         <scene sceneID="PKm-1x-Wfc">
             <objects>
-                <viewController storyboardIdentifier="PDFViewerViewController" id="mSK-UI-MXR" customClass="PDFViewerViewController" customModule="AccessEMR" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="PDFViewerViewController" id="mSK-UI-MXR" customClass="PDFViewerViewController" customModule="appName" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="pW6-dx-ES1">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1972,12 +1972,12 @@
         <!--Diagnosis List View Controller-->
         <scene sceneID="PAo-u5-SkW">
             <objects>
-                <viewController storyboardIdentifier="DiagnosisListViewController" automaticallyAdjustsScrollViewInsets="NO" id="J0P-U0-khj" customClass="DiagnosisListViewController" customModule="AccessEMR" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="DiagnosisListViewController" automaticallyAdjustsScrollViewInsets="NO" id="J0P-U0-khj" customClass="DiagnosisListViewController" customModule="appName" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="6cA-RV-aGh">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Df3-ao-i3Y" customClass="ResidentCardView" customModule="AccessEMR" customModuleProvider="target">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Df3-ao-i3Y" customClass="ResidentCardView" customModule="appName" customModuleProvider="target">
                                 <rect key="frame" x="20" y="10" width="335" height="170"/>
                                 <color key="backgroundColor" red="0.74117647060000003" green="0.7843137255" blue="0.95686274510000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
@@ -1988,7 +1988,7 @@
                                 <rect key="frame" x="20" y="195" width="335" height="462"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="DiagnosisListTableViewCell" rowHeight="104" id="9g8-jO-hIa" customClass="DiagnosisListTableViewCell" customModule="AccessEMR" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="DiagnosisListTableViewCell" rowHeight="104" id="9g8-jO-hIa" customClass="DiagnosisListTableViewCell" customModule="appName" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="335" height="104"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="9g8-jO-hIa" id="XsN-mF-Y8x">
@@ -2084,12 +2084,12 @@
         <!--Medication List View Controller-->
         <scene sceneID="CnL-eG-3yS">
             <objects>
-                <viewController storyboardIdentifier="MedicationListViewController" automaticallyAdjustsScrollViewInsets="NO" id="P4l-Sb-NdU" customClass="MedicationListViewController" customModule="AccessEMR" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="MedicationListViewController" automaticallyAdjustsScrollViewInsets="NO" id="P4l-Sb-NdU" customClass="MedicationListViewController" customModule="appName" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="oFk-8z-hq3">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="iIM-ZK-ebZ" customClass="ResidentCardView" customModule="AccessEMR" customModuleProvider="target">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="iIM-ZK-ebZ" customClass="ResidentCardView" customModule="appName" customModuleProvider="target">
                                 <rect key="frame" x="20" y="10" width="335" height="170"/>
                                 <color key="backgroundColor" red="0.74117647060000003" green="0.7843137255" blue="0.95686274510000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
@@ -2100,7 +2100,7 @@
                                 <rect key="frame" x="20" y="195" width="335" height="462"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="MedicationListTableViewCell" id="WOE-s8-tE1" customClass="MedicationListTableViewCell" customModule="AccessEMR" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="MedicationListTableViewCell" id="WOE-s8-tE1" customClass="MedicationListTableViewCell" customModule="appName" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="335" height="299.5"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="WOE-s8-tE1" id="HBQ-II-EWE">
@@ -2384,7 +2384,7 @@
                                             <outlet property="lblmedicineInfo" destination="QY6-qa-vIl" id="2sR-ar-AnH"/>
                                         </connections>
                                     </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="OtherMedicineCell" id="O27-mS-yOG" customClass="OtherMedicineCell" customModule="AccessEMR" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="OtherMedicineCell" id="O27-mS-yOG" customClass="OtherMedicineCell" customModule="appName" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="327.5" width="335" height="86.5"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="O27-mS-yOG" id="26T-9t-6aw">
@@ -2517,12 +2517,12 @@
         <!--Lab Result View Controller-->
         <scene sceneID="9ez-8d-kmG">
             <objects>
-                <viewController storyboardIdentifier="LabResultViewController" automaticallyAdjustsScrollViewInsets="NO" id="cej-n6-krF" customClass="LabResultViewController" customModule="AccessEMR" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="LabResultViewController" automaticallyAdjustsScrollViewInsets="NO" id="cej-n6-krF" customClass="LabResultViewController" customModule="appName" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="6oO-uP-yRK">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="opg-Hw-aud" customClass="ResidentCardView" customModule="AccessEMR" customModuleProvider="target">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="opg-Hw-aud" customClass="ResidentCardView" customModule="appName" customModuleProvider="target">
                                 <rect key="frame" x="20" y="10" width="335" height="170"/>
                                 <color key="backgroundColor" red="0.74117647060000003" green="0.7843137255" blue="0.95686274510000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
@@ -2599,7 +2599,7 @@
                                 <rect key="frame" x="20" y="250" width="335" height="407"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="LabResultCell" rowHeight="100" id="6aa-0L-Vtu" customClass="LabResultCell" customModule="AccessEMR">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="LabResultCell" rowHeight="100" id="6aa-0L-Vtu" customClass="LabResultCell" customModule="appName">
                                         <rect key="frame" x="0.0" y="28" width="335" height="100"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="6aa-0L-Vtu" id="PD6-R6-lO7">
@@ -2727,12 +2727,12 @@
         <!--Food Diary View Controller-->
         <scene sceneID="1bU-td-sya">
             <objects>
-                <viewController storyboardIdentifier="FoodDiaryViewController" automaticallyAdjustsScrollViewInsets="NO" id="qck-GF-n8e" customClass="FoodDiaryViewController" customModule="AccessEMR" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="FoodDiaryViewController" automaticallyAdjustsScrollViewInsets="NO" id="qck-GF-n8e" customClass="FoodDiaryViewController" customModule="appName" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Df5-gB-Q0X">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="da7-z5-Lyc" customClass="ResidentCardView" customModule="AccessEMR" customModuleProvider="target">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="da7-z5-Lyc" customClass="ResidentCardView" customModule="appName" customModuleProvider="target">
                                 <rect key="frame" x="20" y="10" width="335" height="170"/>
                                 <color key="backgroundColor" red="0.74117647060000003" green="0.7843137255" blue="0.95686274510000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
@@ -2801,7 +2801,7 @@
                                 <rect key="frame" x="20" y="315" width="335" height="342"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="FoodDiaryCell" rowHeight="220" id="82p-37-LsF" customClass="FoodDiaryCell" customModule="AccessEMR" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="FoodDiaryCell" rowHeight="220" id="82p-37-LsF" customClass="FoodDiaryCell" customModule="appName" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="335" height="220"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="82p-37-LsF" id="BLH-SP-OYZ">
@@ -3069,7 +3069,7 @@
         <!--Sub Task View Controller-->
         <scene sceneID="91O-9e-NjC">
             <objects>
-                <viewController storyboardIdentifier="SubTaskViewController" id="hN9-kB-MlP" customClass="SubTaskViewController" customModule="AccessEMR" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="SubTaskViewController" id="hN9-kB-MlP" customClass="SubTaskViewController" customModule="appName" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="zYI-3b-1NN">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -3084,7 +3084,7 @@
                                     <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                                 </collectionViewFlowLayout>
                                 <cells>
-                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="HomeCollectionViewCell" id="9pO-an-1Cc" customClass="HomeCollectionViewCell" customModule="AccessEMR" customModuleProvider="target">
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="HomeCollectionViewCell" id="9pO-an-1Cc" customClass="HomeCollectionViewCell" customModule="appName" customModuleProvider="target">
                                         <rect key="frame" x="78.5" y="0.0" width="178" height="147"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="m6y-8s-YqI">
@@ -3186,7 +3186,7 @@
         <!--Following Task List View Controller-->
         <scene sceneID="Pos-HR-HHw">
             <objects>
-                <viewController storyboardIdentifier="FollowingTaskListViewController" automaticallyAdjustsScrollViewInsets="NO" id="Mgu-Jc-jSk" customClass="FollowingTaskListViewController" customModule="AccessEMR" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="FollowingTaskListViewController" automaticallyAdjustsScrollViewInsets="NO" id="Mgu-Jc-jSk" customClass="FollowingTaskListViewController" customModule="appName" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="S5B-HD-59W">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -3239,7 +3239,7 @@
                                 <rect key="frame" x="19" y="66" width="337" height="592"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="FollowingListCell" id="Ucf-AN-B9T" customClass="FollowingListCell" customModule="AccessEMR" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="FollowingListCell" id="Ucf-AN-B9T" customClass="FollowingListCell" customModule="appName" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="337" height="220.5"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Ucf-AN-B9T" id="TgY-b2-s0P">
@@ -3585,7 +3585,7 @@
         <!--Inventory List View Controller-->
         <scene sceneID="8lM-tu-SYG">
             <objects>
-                <viewController storyboardIdentifier="InventoryListViewController" automaticallyAdjustsScrollViewInsets="NO" id="vDg-Ls-lDA" customClass="InventoryListViewController" customModule="AccessEMR" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="InventoryListViewController" automaticallyAdjustsScrollViewInsets="NO" id="vDg-Ls-lDA" customClass="InventoryListViewController" customModule="appName" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="QkJ-BE-83O">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -3638,7 +3638,7 @@
                                 <rect key="frame" x="19" y="66" width="337" height="592"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" restorationIdentifier="InventoryCell" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="InventoryCell" rowHeight="220" id="AKr-6b-Zf0" customClass="InventoryCell" customModule="AccessEMR" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" restorationIdentifier="InventoryCell" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="InventoryCell" rowHeight="220" id="AKr-6b-Zf0" customClass="InventoryCell" customModule="appName" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="337" height="220"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="AKr-6b-Zf0" id="yuA-wN-tGy">
@@ -3939,7 +3939,7 @@
         <!--Select Patient View Controller-->
         <scene sceneID="dFv-Fi-H0V">
             <objects>
-                <viewController storyboardIdentifier="SelectPatientViewController" automaticallyAdjustsScrollViewInsets="NO" id="I4F-HM-ofP" customClass="SelectPatientViewController" customModule="AccessEMR" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="SelectPatientViewController" automaticallyAdjustsScrollViewInsets="NO" id="I4F-HM-ofP" customClass="SelectPatientViewController" customModule="appName" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="lpN-2B-zqV">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -3979,7 +3979,7 @@
                                 <rect key="frame" x="19" y="66" width="337" height="592"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="PatientCell" rowHeight="88" id="gZh-09-Saq" customClass="PatientCell" customModule="AccessEMR" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="PatientCell" rowHeight="88" id="gZh-09-Saq" customClass="PatientCell" customModule="appName" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="337" height="88"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="gZh-09-Saq" id="UWl-GO-f1e">
@@ -4076,12 +4076,12 @@
         <!--List View Controller-->
         <scene sceneID="F4Q-RF-u1p">
             <objects>
-                <viewController storyboardIdentifier="TARListViewController" automaticallyAdjustsScrollViewInsets="NO" id="aHJ-D3-wxU" customClass="TARListViewController" customModule="AccessEMR" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="TARListViewController" automaticallyAdjustsScrollViewInsets="NO" id="aHJ-D3-wxU" customClass="TARListViewController" customModule="appName" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="xaF-SJ-nlE">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mmz-95-w1Z" customClass="ResidentCardView" customModule="AccessEMR" customModuleProvider="target">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mmz-95-w1Z" customClass="ResidentCardView" customModule="appName" customModuleProvider="target">
                                 <rect key="frame" x="20" y="10" width="335" height="170"/>
                                 <color key="backgroundColor" red="0.74117647060000003" green="0.7843137255" blue="0.95686274510000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
@@ -4111,7 +4111,7 @@
                                 <rect key="frame" x="20" y="289" width="335" height="368"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="TARListCell" rowHeight="273" id="w6X-L5-fJO" customClass="TARListCell" customModule="AccessEMR" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="TARListCell" rowHeight="273" id="w6X-L5-fJO" customClass="TARListCell" customModule="appName" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="335" height="273"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="w6X-L5-fJO" id="Y0N-B3-J8F">
@@ -4472,7 +4472,7 @@
         <!--Notification List View Controller-->
         <scene sceneID="M7J-XB-c3U">
             <objects>
-                <viewController storyboardIdentifier="NotificationListViewController" automaticallyAdjustsScrollViewInsets="NO" id="1oE-um-cKm" customClass="NotificationListViewController" customModule="AccessEMR" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="NotificationListViewController" automaticallyAdjustsScrollViewInsets="NO" id="1oE-um-cKm" customClass="NotificationListViewController" customModule="appName" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="maq-Nd-s0x">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -4481,7 +4481,7 @@
                                 <rect key="frame" x="19" y="10" width="337" height="648"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="NotificationCell" id="gNA-Q7-Xtu" customClass="NotificationCell" customModule="AccessEMR" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="NotificationCell" id="gNA-Q7-Xtu" customClass="NotificationCell" customModule="appName" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="337" height="73.5"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="gNA-Q7-Xtu" id="CXl-TT-71r">
@@ -4591,7 +4591,7 @@
         <!--Direction Map View Controller-->
         <scene sceneID="usE-EH-o8y">
             <objects>
-                <viewController storyboardIdentifier="DirectionMapViewController" id="fVn-1h-bG9" customClass="DirectionMapViewController" customModule="AccessEMR" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="DirectionMapViewController" id="fVn-1h-bG9" customClass="DirectionMapViewController" customModule="appName" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="V0i-tH-j2Z">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -4608,12 +4608,12 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="L5g-HB-uU7">
                                 <rect key="frame" x="0.0" y="130" width="375" height="120"/>
                                 <subviews>
-                                    <textField opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="f52-hj-xkf" customClass="InputTextField" customModule="AccessEMR" customModuleProvider="target">
+                                    <textField opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="f52-hj-xkf" customClass="InputTextField" customModule="appName" customModuleProvider="target">
                                         <rect key="frame" x="70" y="10" width="285" height="45"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
-                                    <textField opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="A6t-m8-nCj" customClass="InputTextField" customModule="AccessEMR" customModuleProvider="target">
+                                    <textField opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="A6t-m8-nCj" customClass="InputTextField" customModule="appName" customModuleProvider="target">
                                         <rect key="frame" x="70" y="65" width="285" height="45"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits"/>
@@ -4819,7 +4819,7 @@
                                                 <rect key="frame" x="20" y="101" width="335" height="479"/>
                                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                                 <prototypes>
-                                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="DirectionStepCell" rowHeight="113" id="qlT-nO-3qO" customClass="DirectionStepCell" customModule="AccessEMR" customModuleProvider="target">
+                                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="DirectionStepCell" rowHeight="113" id="qlT-nO-3qO" customClass="DirectionStepCell" customModule="appName" customModuleProvider="target">
                                                         <rect key="frame" x="0.0" y="28" width="335" height="113"/>
                                                         <autoresizingMask key="autoresizingMask"/>
                                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="qlT-nO-3qO" id="nS2-KD-lLW">
